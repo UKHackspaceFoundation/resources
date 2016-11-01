@@ -18,8 +18,8 @@ http://hackaday.com/2012/11/13/how-to-setup-a-hackerspace-from-someone-whos-done
 http://hackaday.com/2015/08/31/want-to-create-a-fablab-in-your-garage-start-by-joining-your-hackerspace/ 
 https://hackaday.com/tag/hackerspace/page/2/ 
 
-## Fonding sources ##
-
+## Funding sources ##
+###Examples###
 Please label as Name,link, used, and success in securing.Some will be local but should give ideas as to what to look out for.
 
 * Civic pride Richmind,  https://www.richmond.gov.uk/civic_pride_fund, Yes, Yes
