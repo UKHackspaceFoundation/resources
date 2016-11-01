@@ -16,6 +16,7 @@ Things we've added to this repo, and roughly where they are:
 ## Todo
 
 * Code of coduct (CoC)
+
 Stuff to add to this repo (from the Trello todo list):
 
 
