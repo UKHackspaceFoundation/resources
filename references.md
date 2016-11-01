@@ -30,3 +30,7 @@ Please label as Name,link, used, and success in securing.Some will be local but 
 
 * http://wiki.richmondmakerlabs.uk/index.php/Social_Media
 * loomio
+
+## Code of conduct ##
+
+* http://hacman.org.uk/rules/#codeofconduct 
