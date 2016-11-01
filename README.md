@@ -10,10 +10,14 @@ Organised by a number of trustees/directors of UK hackspaces, this repo contains
 Things we've added to this repo, and roughly where they are:
 
 * Nada
+* Some resources from other hackerspaces
+* Some markdown "chapters" under certain themes. 
 
 ## Todo
 
+* Code of coduct (CoC)
 Stuff to add to this repo (from the Trello todo list):
+
 
 * Signage - H&S notices
 * Policies (e.g. H&S)
