@@ -7,13 +7,14 @@ These are things we intend to offer to member Hackspaces, some are already agree
 * Pre-negotiated Hackspace insurance policy (liability and contents)
 * Help and moral support from other spaces who've been there/done that
 
-## Agreed In Principle
+## Agreed In Principle / Offered, but untested
 
 * AutoCAD Suite licenses
 * Free CAM Software (which?)
 * Supplier discounts:
     * Rapid
     * Farnell (?)
+    * mes3dfilaments.co.uk (via mailto:sales@metacad.co.uk)
 
 
 ## Aspirational
