@@ -22,6 +22,7 @@ These are things we intend to offer to member Hackspaces, some are already agree
 
 ## Aspirational
 
+* Centralised hosting for websites, etc
 * Supplier discounts:
     * Avnet
     * Mouser
