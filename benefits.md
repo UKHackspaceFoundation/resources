@@ -16,6 +16,8 @@ These are things we intend to offer to member Hackspaces, some are already agree
     * Farnell (?)
     * mes3dfilaments.co.uk (via mailto:sales@metacad.co.uk)
     * CandyHero.com (discounts for bulk orders)
+    * http://www.technobotsonline.com/
+    
 
 
 ## Aspirational
