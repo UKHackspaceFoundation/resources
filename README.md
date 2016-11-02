@@ -13,6 +13,7 @@ Things we've added to this repo, and roughly where they are:
 * [Definition of a hackspace (as used by the Hackspace Foundation) - draft](define.md)
 * [Code of Conduct - draft](codeOfConduct.md)
 * [Benfits of being a member - draft](benefits.md)
+* [Communications channels and online assets](comms.md)
 * Some resources from other hackerspaces
 * Some markdown "chapters" under certain themes. 
 
