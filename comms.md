@@ -9,6 +9,8 @@ Communication channels and other online assets/organising tools used by the Foun
     * No central mailbox as yet
 * Telegram
     * Active group of 30 members representing 10 hackspaces
+* Internet Relay Chat (IRC)
+    * Public chat room: irc://irc.freenode.net/hackspace / http://webchat.freenode.net/?channels=hackspace / #Hackspace on Freenode 
 * Google Groups
     * Long-term mailing list - https://groups.google.com/forum/#!forum/uk-hackspaces
 * Google Drive
@@ -20,7 +22,7 @@ Communication channels and other online assets/organising tools used by the Foun
     * Todo list and ideas for structuring the foundation, fairly dormant already - probably to be superceded by other tools
 * Github
     * Public repository of useful guides and reference material
-    * Intended to replace the hackspace.org.uk wiki
+    * Intended to replace the hackspace.org.uk wiki or supplement it
 * hackspace.org.uk wiki
     * Current public face of UK hackspaces
     * Out-of-date index to hackspaces
