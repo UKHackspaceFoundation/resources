@@ -1,9 +1,3 @@
-# Contact methods #
-Find us via the UK-hackerspaces mailing list. or UK-hackespaces IRC channel. Some of the organizers of the UK hackerspaces will be there. 
-
-## individual contacts ##
-
-More important people
-Some other people. 
-person before me.
-@amunizp From Richmond MakerLabs
+# Contact #
+Mailing list: https://groups.google.com/forum/#!forum/uk-hackspaces
+Internet Relay Chat (IRC): irc://irc.freenode.net/hackspace / http://webchat.freenode.net/?channels=hackspace / #Hackspace on Freenode
