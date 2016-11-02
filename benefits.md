@@ -5,7 +5,7 @@ These are things we intend to offer to member Hackspaces, some are already agree
 ## Confirmed (because they exist already)
 
 * Pre-negotiated Hackspace insurance policy (liability and contents)
-
+* Help and moral support from other spaces who've been there/done that
 
 ## Agreed In Principle
 
