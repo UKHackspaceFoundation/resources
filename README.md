@@ -10,6 +10,7 @@ Organised by a number of trustees/directors of UK hackspaces, this repo contains
 Things we've added to this repo, and roughly where they are:
 
 * [Goals - draft](goals.md)
+* [Organisational structure - draft](structure.md)
 * [Definition of a hackspace (as used by the Hackspace Foundation) - draft](define.md)
 * [Code of Conduct - draft](codeOfConduct.md)
 * [Benfits of being a member - draft](benefits.md)
