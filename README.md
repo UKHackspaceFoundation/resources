@@ -9,7 +9,7 @@ Organised by a number of trustees/directors of UK hackspaces, this repo contains
 
 Things we've added to this repo, and roughly where they are:
 
-* Nada
+* [Definition of a hackspace (as used by the Hackspace Foundation)](https://github.com/UKHackspaces/resources/blob/master/define.md)
 * Some resources from other hackerspaces
 * Some markdown "chapters" under certain themes. 
 
