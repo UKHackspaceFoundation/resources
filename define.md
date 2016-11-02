@@ -1,8 +1,10 @@
 #Definition#
  
-  A hackspace, also known as Hackerspace, Makerspaces, or arts and crafts clubs for the digital world are member run and community operated organizations with similar interests can meet, socialize and collaborate. 
+ A hackspace (also known as Hackerspace, Makerspace, or arts and crafts club for the digital world) is a member run and community operated organization, where people with similar interests can meet, socialize and collaborate. 
 
-## Working draft
+## Foundation Definition
+
+Working definition to be eligible for membership of the Hackspace Foundation.
 
 Must be:
 - Member owned
