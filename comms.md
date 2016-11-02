@@ -1,6 +1,6 @@
 # Communication Channels
 
-Communication channels and other organising tools used by the Foundation
+Communication channels and other online assets/organising tools used by the Foundation
 
 ## Current State (Nov 2016)
 
