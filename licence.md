@@ -19,9 +19,5 @@ Notices:
     You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
     No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
 
-Learn more about CC licensing, or use the license for your own material.
-This page is available in the following languages:
-Castellano Castellano (España) Català Dansk Deutsch English Esperanto français Galego hrvatski Indonesia Italiano Latviski Lietuvių Magyar Melayu Nederlands Norsk polski Português Português (BR) Português (Portugal) română Suomeksi svenska Türkçe íslenska česky Ελληνικά Беларуская русский українська العربية پارسی 中文 日本語 華語 (台灣) 한국어
-
 This content is freely available under simple version. More details: https://creativecommons.org/licenses/by-sa/4.0/
 
