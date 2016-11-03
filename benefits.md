@@ -7,12 +7,14 @@ These are things we intend to offer to member Hackspaces, some are already agree
 * Pre-negotiated Hackspace insurance policy (liability and contents)
 * Help and moral support from other spaces who've been there/done that
     * Case studies of what's worked, or not, at other spaces (e.g. access control, accounting)
+    * Reference designs for common systems (e.g. access control, member management)
     
 
 ## Agreed In Principle / Offered, but untested
 
 * AutoCAD Suite licenses
 * Free CAM Software (which?)
+* Support sourcing free/surplus materials (e.g. networking kit)
 * Supplier discounts:
     * Rapid
     * Farnell (?)
