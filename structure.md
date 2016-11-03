@@ -3,6 +3,7 @@
 Considerations for the Foundation, and obligations of its members:
 
 * Overall structure is a small managing board plus a number of member Hackspaces
+* Emphasis on high-level co-ordination and support; keeping it simple/minimal
 * Member Hackspaces put forward n representatives, where n is small (e.g. 2), to work/vote on Foundation activities
     * Representatives are expected to be directors or trustees of their space
     * Each member Hackspace gets one vote on foundation decisions
