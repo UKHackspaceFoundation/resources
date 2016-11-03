@@ -23,5 +23,5 @@ Learn more about CC licensing, or use the license for your own material.
 This page is available in the following languages:
 Castellano Castellano (España) Català Dansk Deutsch English Esperanto français Galego hrvatski Indonesia Italiano Latviski Lietuvių Magyar Melayu Nederlands Norsk polski Português Português (BR) Português (Portugal) română Suomeksi svenska Türkçe íslenska česky Ελληνικά Беларуская русский українська العربية پارسی 中文 日本語 華語 (台灣) 한국어
 
-This content is freely available under simple version. More details here.
+This content is freely available under simple version. More details: https://creativecommons.org/licenses/by-sa/4.0/
 
