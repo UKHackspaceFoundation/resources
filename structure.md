@@ -24,5 +24,29 @@ Options for transitioning to a legal structures:
 [General background on legal structures for non-profit organisations](http://www.resourcecentre.org.uk/information/legal-structures-for-not-for-profit-organisations/)
 
 
+# Prototype articles of association from 2014
 
+## Membership
+* There are two classes of membership to the Organisation:
+ * Individual members ("Members"), and
+ * Member Hackspaces ("Member Spaces")
 
+# Individual Members
+* The Organisation has one or more Individual Members who support its objectives.
+* Individual Members may apply to join the association and will be accepted by a majority vote of the existing membership.
+* Individual Members must pay a yearly membership fee of £20.
+* If an Individual Member's membership fee goes unpaid for two months after being requested, they will cease to be a member.
+
+# Member Spaces
+* An organisation may join as a Member Space if it:
+ * is an unincorporated or incorporated association,
+ * is based in the UK,
+ * has a primary object of providing a shared workspace to its members,
+ * has a bank account,
+ * has ten or more members,
+ * has a democratically elected board of directors, and
+ * conducts its business by allowing each member one vote.
+* Member Spaces may apply to join the association and will be accepted by a majority vote of the existing membership.
+* Member Spaces may each appoint up to two people to the Organisation as representatives. These representatives hold the same voting rights as Individual Members, but do not have to pay the membership fee.
+* Member Spaces must pay a minimum yearly membership fee of £20, but are encouraged to contribute more. It is recommended that Member Spaces contribute 1% of their yearly surplus funds to the Organsiation.
+* If an Member Space's membership fee goes unpaid for two months after being requested, it will cease to be a member.
