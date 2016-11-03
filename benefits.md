@@ -12,8 +12,8 @@ These are things we intend to offer to member Hackspaces, some are already agree
 
 ## Agreed In Principle / Offered, but untested
 
-* AutoCAD Suite licenses
-* Free CAM Software (which?)
+* Gratis CAD Suite licenses
+* Gratis CAM Software (which?)
 * Support sourcing free/surplus materials (e.g. networking kit)
 * Supplier discounts:
     * Rapid
