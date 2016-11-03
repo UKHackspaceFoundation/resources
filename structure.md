@@ -34,7 +34,7 @@ Options for transitioning to a legal structures:
 # Individual Members
 * The Organisation has one or more Individual Members who support its objectives.
 * Individual Members may apply to join the association and will be accepted by a majority vote of the existing membership.
-* Individual Members must pay a yearly membership fee of £20.
+* Individual Members must pay a yearly membership fee of £10.
 * If an Individual Member's membership fee goes unpaid for two months after being requested, they will cease to be a member.
 
 # Member Spaces
