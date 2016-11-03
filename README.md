@@ -17,6 +17,11 @@ Things we've added to this repo, and roughly where they are:
 * [Communications channels and online assets](comms.md)
 * Some resources from other hackerspaces
 * Some markdown "chapters" under certain themes. 
+* [Licence for the website - draft](licence.md)
+* [Reference links for chapters - draft](references.md)
+* [Funding sources - empty](FundingSources.md)
+* [Health and Safety - empty](HealthAndSafety.md)
+
 
 ## Todo
 
