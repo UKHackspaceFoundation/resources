@@ -21,6 +21,7 @@ Options for transitioning to a legal structures:
 * [CLG](https://www.gov.uk/business-legal-structures/limited-company)
 * [CIC (form of CLG)](https://www.gov.uk/government/organisations/office-of-the-regulator-of-community-interest-companies)
 
+[General background on legal structures for non-profit organisations](http://www.resourcecentre.org.uk/information/legal-structures-for-not-for-profit-organisations/)
 
 
 
