@@ -30,6 +30,7 @@ Considerations for the Foundation, and obligations of its members:
 ### Individual Members
 * The Organisation has one or more Individual Members who support its objectives.
 * Individual Members may apply to join the association and will be accepted at the discretion of the board
+* Individual Members cannot also be a Representative of a Member Space
 * Individual Members get a single vote in organisational decisions
 * Individual Members must pay a yearly membership fee of £10.
 * If an Individual Member's membership fee goes unpaid for two months after being requested, they will cease to be a member.
@@ -37,9 +38,9 @@ Considerations for the Foundation, and obligations of its members:
 ## Board
 
 * The Foundation maintains an elected board to oversee general operation/administration whom:
-    * Should not also be active directors of a Hackspace
-    * Are expected to have past experience of managing a Hackspace, or contributing to it
-    * Must be Individual Members
+    * must be Individual Members,
+    * should not also be active directors of a Hackspace,
+    * are expected to have past experience of managing a Hackspace, or contributing to it
 * The board members shall be (re)elected annually
 
 
