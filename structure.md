@@ -38,8 +38,8 @@ Considerations for the Foundation, and obligations of its members:
 
 * The Foundation maintains an elected board to oversee general operation/administration whom:
     * Should not also be active directors of a Hackspace
-    * Are expected to have past experience of managing a Hackspace, or contributing to it, and
-    * May be nominated from outside the current Foundation membership
+    * Are expected to have past experience of managing a Hackspace, or contributing to it
+    * Must be Individual Members
 * The board members shall be (re)elected annually
 
 
