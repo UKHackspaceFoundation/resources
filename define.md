@@ -18,7 +18,7 @@
     * encourages engagement with, and opening to, the public,
     * describes itself, or its activities, as a Hack(er)space (not necessary in the name or title of the group/business),
     * supporting of 'STEAM' (Science, Technology, Engineerings, Arts, Mathematics)
-* Conformance to these criteria is judged by the Organisation's board
+* Conformance to these criteria is judged by the Foundation's board
 
 Examples of organisations that would not meet this criteria include spaces that are:
 * solely used as a rentable, accessible workshop with paid access
