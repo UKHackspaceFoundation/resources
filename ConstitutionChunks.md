@@ -16,3 +16,7 @@ Membership is at all times subject to review. Should your organisational directi
 For someone to be eligible, they either need to be voted to be the space rep for the foundation for the year, or they need to be specifically proposed and accepted as an independent who we consider to be really valuable.
 
 Current directors of hackspaces are ineligible to become foundation directors on the basis of potential conflicts of interest and time constraints.
+
+##Directors Membership
+
+Directors, upon being voted in, gain individual membership for their time in office, conferring all the rights associated with such membership.
