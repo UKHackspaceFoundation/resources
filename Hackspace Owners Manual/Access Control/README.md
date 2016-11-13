@@ -51,16 +51,16 @@ See also:
 * https://en.wikipedia.org/wiki/Magnetic_stripe_card
 * https://en.wikipedia.org/wiki/Wiegand_interface
 
-## Contactless Tokens
+## Contactless Tags
 
-Contactless tokens generally come in two frequencies:
+Contactless tags generally come in two frequencies:
 
 * 125KHz
 * 13.56MHz
 
 See also https://en.wikipedia.org/wiki/Radio-frequency_identification
 
-Most contactless tokens are available in multiple formats such as cards,
+Most contactless tags are available in multiple formats such as cards,
 keyfobs or even stickers.
 
 The main difference between the two main frequency standards is that of
@@ -73,20 +73,110 @@ The 13.56MHz tokens are much shorter range (typically 10cm or less) but can
 perform much more complex operations including levels of encryption and
 security beyond those available at the lower frequency.
 
-### MiFare 
+## MiFare Classic / MiFare Classic EV1
 
-MiFare is one of the defacto 13.56MHz contactless smart token standards and
+MiFare is one of the defacto 13.56MHz contactless smart tag standards and
 is widely adopted. You may be familiar with it in one of the following:
 
 * Oyster card
 * Contactless bank payment cards
 * University library or ID cards
 
+MiFare tags are a sector and block based storage solution with many capabilities.
 
+* Overview - https://en.wikipedia.org/wiki/MIFARE
+* NXP index - http://www.nxp.com/products/identification-and-security/mifare-ics:MC_53422?fsrch=1&sr=1&pageNum=1
+* MiFare Classic - http://www.nxp.com/products/identification-and-security/mifare-ics/mifare-classic:MC_41863
 
-See also https://en.wikipedia.org/wiki/MIFARE
+When using a MiFare tag for access control, there are primarily two techniques:
 
-### MiFare Application Directory
+1. Serial number
+2. Sector data
+
+These will be discussed in more detail.
+
+### Tag Structure
+
+For the purposes of this documentation we will be focusing on
+1KB MiFare Classic tags but they are also available in 4KB.
+
+Tags are organised into 16 sectors of 4 x 16 byte blocks, see Fig 5. from the spec:
+
+![MiFare Classic Memory Organisation](images/mifare-memory-organisation.png)
+
+Of these 4 blocks per sector, 3 can contain data and 1 contains the sector trailer. Sector 0, the first sector on the tag is special in that it can only contain 2 blocks of data with the first reserved for the manufacturer data.
+
+Examining the manufacturer data we see:
+
+![MiFare Manufacturer Block](images/mifare-manufacturer-block.png)
+
+### Serial number
+
+The Unique ID or tag serial number on MiFare Classic tags is 7 bytes of data. This is usually encountered as a 14 digit hexidecimal number that looks something like this:
+
+ > AE B3 D6 E5 ED DD 6D
+
+This 7 byte Unique ID is programmed at manufacture time and is used to identify the tag to the reader in order for operations to be performed against it. Mainly this number exists to provide an anti collision and selection mechanism when reading one tag amongst many presented to a reader.
+
+Newer MiFare Classic EV1 tags can be programmed to return a 4 byte Non-Unique ID which can even be random instead of the usual 7 bit Unique ID. It's noted in the product data sheet that if you're programming your own tags you should set this option specifically to prevent it from being maliciously changed (you're looking for UIDFn or Unique ID Fuctionality number).
+
+We're assuming that you are implementing UIDF0:
+
+> UIDF0: anti-collision and selection with the double size UID according to ISO/IEC 14443-3
+
+Other options will probably not provide you with a consistent Unique ID that you'll be happy to use for access control.
+
+Whilst widely used for access control, the Unique ID is easily cloned and not a massively secure mechanism for controlling access. On the other hand, you may wish to use this to your advantage by allowing members to clone their tag and gain access with an NFC application on their phone.
+
+Pros:
+
+* Easily cloned to mobile phone for access
+* Simple to implement
+* Most if not all readers stating MiFare support will work
+* Use a members existing tag as access token (Oyster, Bank card or whatever)
+
+Cons:
+
+* Easily read and cloned with basic technology
+* Susceptible to replay attacks
+* Security through obscurity
+
+As previously mentioned, there are easier ways to gain access than by obtaining a tag in order to clone it to gain access. Balance your paranoia with a practicality and decide for yourself if you consider this to be an acceptable risk.
+
+### Sector Data
+
+Sector 0 access is authenticated however it's standard for this to be accessed using one of the default public keys. Regardless of this the Unique ID is always readable because it's primary use is as a selector when multiple tags are presented to the reader.
+
+As has been mentioned, each sector of the tag has 3 x blocks of storage (with the exception of sector 0 which only has 2) so it's possible to put our own uniquely generated identifier into one of these blocks which we then have to authenticate against in order to retrieve.
+
+The simple approach is to choose a tag sector and write our data to one of the blocks, then change the keys on that block in order to prevent unauthorised access or modification. Now in order to identify our member, we read the block of data from our reserved sector.
+
+The authentication and encryption mechanisms that make this work were proved to be insecure and at Chaos Communications Congress in December 2007 (24C3) Karsten Nohl and Henryk Plötz gave a talk about this:
+
+https://events.ccc.de/congress/2007/Fahrplan/events/2378.en.html
+
+Phillips NXP subsequently withdrew the vanilla MiFare Classic tag replacing it with the MiFare Classic EV1 and MiFare Plus tags which addressed the security issues identified at the time. Whilst MiFare Classic EV1 is a drop in replacement with no changes required to existing infrastructure, MiFare Plus is a new standard requiring changes to support. Subsequently a side channel attack has been identified to exploit the MiFare Classic EV1 and DESFire EV cards which is less practical and potentially costly to reproduce.
+
+See also https://en.wikipedia.org/wiki/MIFARE#Security_of_MIFARE_Classic.2C_MIFARE_DESFire_and_MIFARE_Ultralight
+
+Both the MiFare Classic and MiFare Classic EV1 cards use 48 bit keys for sector authentication so even without an exploit it's possible to brute force the key(s) given enough time.
+
+Pros:
+
+* Marginally more secure than using just the tag Unique ID
+* Provides entertaining challenge for members
+* We determine the number rather than having to use the manufacturer Unique ID
+
+Cons:
+
+* More complexity to deal with
+* Not massively more secure than Unique ID
+* Requires reader support
+* Can't re-use an existing tag (like Oyster or bank) as we need to modify it
+
+Whilst using sector data provides marginally more security, realistically there is probably few benefits to utilising it above Unique ID. both are clonable with more or less effort so it depends how much obscurity you wish to provide in your security. A sledge hammer is still a more likely means of attack than a card clone.
+
+## MiFare Application Directory
 
 
 
@@ -179,7 +269,7 @@ configured to operate opening inwards or outwards.
 
 ### Cisa
 
-* 11610 - http://www.saundersonsecurity.co.uk/acatalog/Cisa_11610_Rim_Electric_Locks.html 
+* 11610 - http://www.saundersonsecurity.co.uk/acatalog/Cisa_11610_Rim_Electric_Locks.html
 * 1A721 - http://www.saundersonsecurity.co.uk/acatalog/Cisa_Elettrika_1A721_Elec_lock_For_Metal_1A721.html
 
 These locks are fail secure and are released by application of 24v AC.
@@ -247,7 +337,7 @@ thrust component falls outside the gap created for the latch.
 
 
 ## Override mechanisms
- 
+
 # Case Studies
 
 ## London Hackspace
@@ -259,5 +349,3 @@ thrust component falls outside the gap created for the latch.
 
 
 ## Swindon Hackspace
-
-
