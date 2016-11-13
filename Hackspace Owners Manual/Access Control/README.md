@@ -86,6 +86,9 @@ is widely adopted. You may be familiar with it in one of the following:
 
 See also https://en.wikipedia.org/wiki/MIFARE
 
+### MiFare Application Directory
+
+
 
 
 ## Other technologies
@@ -229,12 +232,32 @@ inserting something between the door and frame.  Distance between main
 latch and anti thrust bolt should be checked to ensure that the anti
 thrust component falls outside the gap created for the latch.
 
-## Other considerations
+# Controller
 
-### DDA
+## Local caching of data
+
+# Other considerations
+
+## DDA
+
+* Reader, lock and break glass unit heights
+* Reader location base on door handing
+
+## Fire escape routes
 
 
-### Fire escape routes
-
-
+## Override mechanisms
  
+# Case Studies
+
+## London Hackspace
+
+
+
+## Manchester Hackspace (Hacman)
+
+
+
+## Swindon Hackspace
+
+
