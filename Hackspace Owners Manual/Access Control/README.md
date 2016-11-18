@@ -37,7 +37,7 @@ Unless you manage to obtain a low cost or free supply of readers and
 cards, it's not worth investing in this technology at this point.
 
 If you do choose this technology you will need to program your own cards
-as using bank cards will reveal morew information to the reader than you
+as using bank cards will reveal more information to the reader than you
 want to see. Limit your card numbers to 12 digits if you hope to have
 any compatibility with commercial off the shelf solutions.
 
@@ -178,8 +178,13 @@ Whilst using sector data provides marginally more security, realistically there 
 
 ## MiFare Application Directory
 
+If we are to use sector data, it's wise to consider if you may want to use more than one sector of your tag for other applications. If this is the case, then MiFare Application Directory is worth investigating.
 
+Instead of going directly to your programmed sector, we use the application directory to look up our application ID and then that determines which sector your data is held in.
 
+There is substantially more work to support this model, however it enables a multi-use card that could potentially be shared with other organisations or groups. It is unlikely that it is worth the additional effort required to support this but it is included here for interest.
+
+See also http://www.nxp.com/documents/application_note/AN10787.pdf
 
 ## Other technologies
 
@@ -197,6 +202,21 @@ Generally these would not be considered suitable for controlling access.
 
 ## Recommended Readers
 
+### Seeed Studio RDM880
+
+* https://www.seeedstudio.com/13.56Mhz-RFID-module-IOS(IEC)-14443-type-a-p-196.html
+
+Supports unique ID or sector data. Available from Cool Components in the UK:
+
+* https://www.coolcomponents.co.uk/rfid-reader-writer-13-56mhz.html
+
+### NXP PN532
+
+Available with a breakout board from Adafruit:
+
+* https://www.adafruit.com/products/364
+
+Also available from ebay in various forms if you search for PN532.
 
 # Ironmongery
 
