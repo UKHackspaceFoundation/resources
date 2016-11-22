@@ -426,7 +426,27 @@ access so consider that when choosing your placement.
 
 ## Two factor authentication
 
+Outside of your usual open evenings and days, the point of implementing access
+control is to allow members to gain access at any time of the day or night.
 
+Your access token is something you have, howver it can be lost or even stolen
+meaning that unauthorised access can be gained. Clasically good security is
+made up of both something you have and something you know such as a bank card
+and PIN.
+
+It's possible to implement two factor authentication that would require members
+to both present a card and then require a PIN matched to that card to be
+entered in order to gain access. This is not without issues however.
+
+Adding PIN could cause issues for dyslexics and those with a visual impairment.
+
+One suggested approach is to combine your requirement for two factor
+authentication with presence sensors that detect when your space is occupied.
+If there are people in the space, then only require presentation of a tag.
+
+Should you decide to implement this, pay due regards to the height of your
+keypad in line with the recommendations in the section titled 'UK Disability
+Discrimination Act' in terms of placement and height.
 
 ## UK Regulations, Best Practice and Legal Aspects
 
@@ -445,7 +465,7 @@ is considered a fire escape route, seek professional advice.
 Whilst not consistent and often subjective, your local fire service may be able
 to give you advice and tell you what you need to know.
 
-Disclaimer: This guidance document is not a substitute for professions advice
+Disclaimer: This guidance document is not a substitute for professional advice
 for your specific circumstance or setup. Use some common sense.
 
 # Case Studies
