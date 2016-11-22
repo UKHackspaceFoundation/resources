@@ -197,12 +197,10 @@ Generally these would not be considered suitable for controlling access.
 
 # Readers
 
-## General recommendations
+See the section titled 'UK Disability Discrimination Act' below for discussion
+of reader height placements.
 
-
-## Recommended Readers
-
-### Seeed Studio RDM880
+## Seeed Studio RDM880
 
 * https://www.seeedstudio.com/13.56Mhz-RFID-module-IOS(IEC)-14443-type-a-p-196.html
 
@@ -210,7 +208,7 @@ Supports unique ID or sector data. Available from Cool Components in the UK:
 
 * https://www.coolcomponents.co.uk/rfid-reader-writer-13-56mhz.html
 
-### NXP PN532
+## NXP PN532
 
 Available with a breakout board from Adafruit:
 
