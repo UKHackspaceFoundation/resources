@@ -410,17 +410,45 @@ issues with the introduction of access control and ask for their input. Do his
 in the planning stages so that you can try to include adjustments as might be
 needed to support your members.
 
-## Fire escape routes
-
-
-
 ## Override mechanisms
 
+Make sure you don't skip fitting an override mechanism and know who has the
+keys in the event you need them! Having to break in to your space because your
+Raspberry Pi based controller crashed is not good.
 
+If your locking mechanism is of a fail secure mechanical nature, then chances
+are it provides for an override key. Know who has the keys if you need them and
+don't leave them all in the space...
+
+If you are using a fail open locking mechanism such as a maglock or frame based
+solenoid, you will need to provide yourself an override keyswitch in a discrete
+external location that will allow you to isolate and disable the lock should
+your controller fail. This does also add an attack vector for unauthorised
+access so consider that when choosing your placement.
 
 ## Two factor authentication
 
 
+
+## UK Regulations, Best Practice and Legal Aspects
+
+The Guild of Architectural Ironmongers and the Door and Hardware Federation got
+together to create the following best practice guide for fire and escape doors:
+
+http://firecode.org.uk/Code_of_Practice_hardware_for_fire_and_escape_doors.pdf
+
+This document mentions a number of standards that you may need to be aware of.
+
+There are a large number of rules governing many aspects of the installation of
+access control systems. If you are in any doubt about what you're doing, the
+legality of your implementation or any other aspect of changes to a door that
+is considered a fire escape route, seek professional advice.
+
+Whilst not consistent and often subjective, your local fire service may be able
+to give you advice and tell you what you need to know.
+
+Disclaimer: This guidance document is not a substitute for professions advice
+for your specific circumstance or setup. Use some common sense.
 
 # Case Studies
 
