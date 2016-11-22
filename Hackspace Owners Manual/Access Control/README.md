@@ -292,7 +292,7 @@ configured to operate opening inwards or outwards.
 * 11610 - http://www.saundersonsecurity.co.uk/acatalog/Cisa_11610_Rim_Electric_Locks.html
 * 1A721 - http://www.saundersonsecurity.co.uk/acatalog/Cisa_Elettrika_1A721_Elec_lock_For_Metal_1A721.html
 
-These locks are fail secure and are released by application of 24v AC.
+These locks are fail secure and are released by application of 12v AC.
 
 Whilst the Cisa locks offer a great value and level of security they are
 very specifically handed and direction focused. You need to know which
@@ -344,19 +344,83 @@ thrust component falls outside the gap created for the latch.
 
 # Controller
 
+The specifics of the controller are beyond the scope of this document. Each and
+every space so far consulted has implemented their own solution with a
+combination of many different technologies. See the case studies below for
+information on what other spaces have done.
+
+If you are implementing a fail open mechanism, you may wish to consider a
+battery backup solution to support the lock during power outages or your space
+will become insecure the moment the power drops. There are many camera power
+supply units on ebay that provide a metal box, voltages and battery backup
+capabilities if you want to source something off the shelf.
+
 ## Local caching of data
+
+The one recommendation to make is to ensure that your controller caches access
+data and logging information locally. Do not rely on the network being
+available to be able to open the door.
+
+This could be through the use of a local copy of your access data in a text,
+CSV or SQLite database. Regardless, cache locally or you will be left standing
+at the door because an external service is down. This is most vexing and should
+be avoided.
 
 # Other considerations
 
-## DDA
+## UK Disability Discrimination Act
 
-* Reader, lock and break glass unit heights
-* Reader location base on door handing
+UK law states that every effort should be made to make facilities accessible
+for an individual with an impairment. There are limits to the practicalities of
+this, however as a principle we should also adhere to this.
+
+According to the guidance in BS8300 6.6.1, 6.6.2, and 6.6.3:
+
+"Door entry systems and entry phones should be positioned so as to be
+accessible to wheelchair users; the activation pad of an entry system should be
+on the latch side of the door within 200mm of the frame and be between 900mm and
+1050mm from the floor"
+
+"Digital locks should have a lever handle and be positioned
+between 900mm and 1050 from the floor."
+
+"Keypads positioned to be convenient for wheelchair users may be awkward for
+tall people and vice-versa; consequently, consideration should be given to
+alternatives such as swipe cards or proximity readers."
+
+Snippets above taken from:
+
+http://www.relcross.co.uk/uploads/Best%20Practice%20Guides/1019-Approved-Doc-M-guidance.pdf
+
+Light switches should be installed at a maximum height of 1200mm from the floor
+in accordance with BS7671 to the top of the fitting so it would not be
+unreasonable to install a reader at this height if no interaction beyond
+presentation of a tag is required as mentioned above.
+
+It's also worth drawing attention to placement of readers on the opening edge
+of the door and not at the hinge side. Placing the reader at the hinge side
+makes an outward opening door incredibly difficult to open for a wheelchair
+user who must present a tag and then move out of the way to open the door.
+
+The same advice should be followed for break glass units and request to exit
+switches.
+
+Everyone is individual so tactfully engage your members who may have physical
+issues with the introduction of access control and ask for their input. Do his
+in the planning stages so that you can try to include adjustments as might be
+needed to support your members.
 
 ## Fire escape routes
 
 
+
 ## Override mechanisms
+
+
+
+## Two factor authentication
+
+
 
 # Case Studies
 
