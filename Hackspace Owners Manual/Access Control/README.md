@@ -429,7 +429,7 @@ access so consider that when choosing your placement.
 Outside of your usual open evenings and days, the point of implementing access
 control is to allow members to gain access at any time of the day or night.
 
-Your access token is something you have, howver it can be lost or even stolen
+Your access token is something you have, however it can be lost or even stolen
 meaning that unauthorised access can be gained. Clasically good security is
 made up of both something you have and something you know such as a bank card
 and PIN.
