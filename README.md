@@ -9,7 +9,7 @@ Organised by a number of trustees/directors of UK hackspaces, this repo contains
 
 Things we've added to this repo, and roughly where they are:
 
-* Beginning of the [Hackspace Owners Manual](Hackspace Owners Manual)
+* Beginning of the [Hackspace Owners Manual](Hackspace%20Owners%20Manual)
 * Some resources from other hackerspaces
 * Some markdown "chapters" under certain themes. 
 * [Licence for the website - draft](licence.md)
