@@ -1,4 +1,6 @@
 
+![](furniture_designs_banner.png)
+
 Cheap, easy to build furniture for Hackspaces:
 
 * [Barstool](Swindon%20Makerspace%20-%20Barstool.pdf)
