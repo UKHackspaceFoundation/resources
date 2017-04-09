@@ -16,6 +16,7 @@ Things we've added to this repo, and roughly where they are:
 * [Reference links for chapters - draft](references.md)
 * [Funding sources - empty](FundingSources.md)
 * [Health and Safety - empty](HealthAndSafety.md)
+* [Furniture designs (e.g. tables, benches stools)](Furniture%20Designs)
 
 
 ## Todo
@@ -34,7 +35,6 @@ Stuff to add to this repo (from the Trello todo list):
 * Managing pledges
 * Access control systems
 * Fire safety
-* Furniture designs (e.g. tables, benches stools)
 * Wiring/electrical guide
 * Funding sources
 * Marketing/PR ideas and results
