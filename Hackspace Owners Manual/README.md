@@ -5,8 +5,13 @@ maker and hacking community by working with groups to develop and aid
 spaces that are inclusive, democratic, and STEAM (Science Technology
 Engineering Arts Mathematics) orientated.
 
-The organisation is run in conjunction with member Hackspaces to help Hackspaces to
-co-operate, coordinate and promote Hackspaces.
+The organisation is run by and for Hackspaces to help co-operate, coordinate
+and promote Hackspaces and making in general.
+
+More information can be found at https://www.hackspace.org.uk/
+
+The current up to date version of this manual can be found at
+https://github.com/UKHackspaceFoundation/resources/tree/master/Hackspace%20Owners%20Manual
 
 # Introduction - The Hackspace Owners Manual
 
