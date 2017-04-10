@@ -15,7 +15,7 @@ https://github.com/UKHackspaceFoundation/resources/tree/master/Hackspace%20Owner
 
 # Introduction - The Hackspace Owners Manual
 
-The Hackspace Owners Manual (HoM) is intendended to be a wide surface
+The Hackspace Owners Manual (HoM) is intended to be a wide surface
 coverage of anything that you might need to know to run a hackspace from
 starting up through accounting and even what kind of tooling you might
 like to invest in.
@@ -31,4 +31,3 @@ that are right for your organisation.
 [Infrastructure](Infrastructure)
 
 [Workshop](Workshop)
-

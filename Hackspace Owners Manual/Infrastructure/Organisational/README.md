@@ -22,3 +22,6 @@
 * Accounting
 * Insurance
 
+* [Funding sources](FundingSources.md)
+
+* [Health and Safety](HealthAndSafety.md)

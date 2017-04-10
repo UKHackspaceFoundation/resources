@@ -1,49 +1,21 @@
-# Hackspace Resources
-Sample documentation, guidance, templates, etc
+# Hackspace Foundation Resources
+Curated resources to aid starting and running a Hackspace.
 
-
-## Background
 Organised by a number of trustees/directors of UK hackspaces, this repo contains reusable materials for starting or running a hackspace.  It complements the high level information available on the UK Hackspace Foundation website: http://www.hackspace.org.uk/
 
-## Contents
-
-Things we've added to this repo, and roughly where they are:
-
-* Some resources from other hackerspaces
-* Some markdown "chapters" under certain themes. 
-* [Licence for the website - draft](licence.md)
-* [Reference links for chapters - draft](references.md)
-* [Funding sources - empty](FundingSources.md)
-* [Health and Safety - empty](HealthAndSafety.md)
+The majority of the content is arranged within the *[Hackspace Owners Manual](Hackspace%20Owners%20Manual/README.md)*, so start there :)
 
 
-## Todo
+## Todo / Contributions
 
-Stuff to add to this repo (from the Trello todo list):
-
-
-* Signage - H&S notices
-* Policies (e.g. H&S)
-* Insurance guide and associated materials
-* Membership guides & example approaches
-* Legal structures
-  * CIC Setup and annual reporting
-* Accounting practises and tools
-* Minibar concept
-* Managing pledges
-* Access control systems
-* Fire safety
-* Furniture designs (e.g. tables, benches stools)
-* Wiring/electrical guide
-* Funding sources
-* Marketing/PR ideas and results
-* Organisation tools and techniques
-* Directors guide
-* Workshop ideas, structure and feedback
-* Finances - P&L structure, benchmarks
-* Feedback surveys, attendance, reporting
-* Asset handling
-* CAM toolchains
-* Machineable materials list
+See the [High-level todo list](todo.md) for areas that need developing, contributions are welcome - see [contributions](contributions.md) to get started.
 
 
+## References
+
+Some (by no means all) of the references used to assemble content for this site are collated [here](references.md).
+
+
+## License
+
+All content within this repo is covered by the [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license](https://creativecommons.org/licenses/by-nc-sa/3.0/)
