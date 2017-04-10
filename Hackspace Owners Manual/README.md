@@ -8,48 +8,22 @@ Engineering Arts Mathematics) orientated.
 The organisation is run in conjunction with member Hackspaces to help Hackspaces to
 co-operate, coordinate and promote Hackspaces.
 
-# [Organisation](Organisation)
+# Introduction - The Hackspace Owners Manual
 
-## What's in a name?
+The Hackspace Owners Manual (HoM) is intendended to be a wide surface
+coverage of anything that you might need to know to run a hackspace from
+starting up through accounting and even what kind of tooling you might
+like to invest in.
 
-* Hackspace
-* Hackerspace
-* Makerspace
-* Men's Sheds
-* Community workshop
+Each chapter of the HoM attempts to summarise the information you need
+whilst providing links to further reading resources and case studies of
+implementations in the given area of discussion. HoM tries to give you the
+facts of the area in a way that enables you to make informed decisions
+that are right for your organisation.
 
+[The Hackspace Owners Manual](HoM)
 
+[Infrastructure](Infrastructure)
 
-## Founding the organisation
-
-* Company limited by guarantee
-* Community Interest Company
-* Charity
-
-## Ethics
-
-* Code of conduct
-
-## Legal obligations
-
-* Bank account
-* Accounting
-* Insurance
-
-## Discussion groups, mailing lists and web forums
-
-# Physical Infrastructure
-
-## Broadband
-
-## Wifi
-
-## [Access control](Access%20Control)
-
-
-# IT Infrastructure
-
-## Authentication
-
-## Website hosting
+[Workshop](Workshop)
 
