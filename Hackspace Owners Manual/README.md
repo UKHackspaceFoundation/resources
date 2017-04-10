@@ -5,51 +5,29 @@ maker and hacking community by working with groups to develop and aid
 spaces that are inclusive, democratic, and STEAM (Science Technology
 Engineering Arts Mathematics) orientated.
 
-The organisation is run in conjunction with member Hackspaces to help Hackspaces to
-co-operate, coordinate and promote Hackspaces.
+The organisation is run by and for Hackspaces to help co-operate, coordinate
+and promote Hackspaces and making in general.
 
-# [Organisation](Organisation)
+More information can be found at https://www.hackspace.org.uk/
 
-## What's in a name?
+The current up to date version of this manual can be found at
+https://github.com/UKHackspaceFoundation/resources/tree/master/Hackspace%20Owners%20Manual
 
-* Hackspace
-* Hackerspace
-* Makerspace
-* Men's Sheds
-* Community workshop
+# Introduction - The Hackspace Owners Manual
 
+The Hackspace Owners Manual (HoM) is intended to be a wide surface
+coverage of anything that you might need to know to run a hackspace from
+starting up through accounting and even what kind of tooling you might
+like to invest in.
 
+Each chapter of the HoM attempts to summarise the information you need
+whilst providing links to further reading resources and case studies of
+implementations in the given area of discussion. HoM tries to give you the
+facts of the area in a way that enables you to make informed decisions
+that are right for your organisation.
 
-## Founding the organisation
+[The Hackspace Owners Manual](HoM)
 
-* Company limited by guarantee
-* Community Interest Company
-* Charity
+[Infrastructure](Infrastructure)
 
-## Ethics
-
-* Code of conduct
-
-## Legal obligations
-
-* Bank account
-* Accounting
-* Insurance
-
-## Discussion groups, mailing lists and web forums
-
-# Physical Infrastructure
-
-## Broadband
-
-## Wifi
-
-## [Access control](Access%20Control)
-
-
-# IT Infrastructure
-
-## Authentication
-
-## Website hosting
-
+[Workshop](Workshop)
