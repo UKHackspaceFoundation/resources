@@ -5,6 +5,10 @@ This file follows the conventions in [keepachangelog format](http://keepachangel
 
 ## [Unreleased] - 0000-00-00
 
+## [0.2.0] - 2017-04-12 - iann
+### Added
+- Adding contribution documentation
+
 ## [0.1.0] - 2017-04-10 - iann
 ### Added
 - Adding first release version for existing content.
