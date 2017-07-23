@@ -71,7 +71,7 @@ Buildings cover is arranged on a case-by-case basis. (As an example, for a Hacks
 
 There may be some Hackspaces / Makerspaces which feel that we didn’t really deliver last year, but that was because were weren’t entirely confident of the situation with the insurers (as noted above). Now we are – and we are administering the products ourselves, so we are confident that turn-around for quotes and cover will be hours, not days (or weeks!) as we don’t need to refer everything backwards and forwards to insurers.
 
-We are also working on a new website for policy administration, access to documentation and risk management info - we have made a start, so watch this space: http://www.exportandgeneral.co.uk/hackspace-community-group-insurance.php3.
+We are also working on a new website for policy administration, access to documentation and risk management info - we have made a start, so watch this space: http://www.exportandgeneral.co.uk/hackspace-community-group-insurance.php
 
 ---
 
