@@ -50,20 +50,33 @@ Many Hackspaces don't have any insurance in their early days, but as you expand 
 
 Hackspaces/Makerspaces throughout the UK face a similar challenge in terms of finding the right level of insurance cover for an affordable price. Many insurers do not understand what these spaces are, and thus how to insure them correctly. This can result in a failure to quote, unaffordable pricing and/or insufficient cover.
 
-As a first step, a large number of spaces collaborated in early 2016 to establish a "master scheme" that other groups can opt into. It wasn't quite a formal tender process (that will have to wait for 2017), but it has resulted in a very simple cost-effective policy that can be tailored to your particular needs. Premiums start from around £300, including Public and Employers liability, Contents and Legal Cover - arranged by Export and General Insurance Services (see below for contact details).
+As a first step, a large number of spaces collaborated in early 2016 to establish a "master scheme" that other groups can opt into.  The selected broker, Export and General, has since created a bespoke suite of insurance products which are suitable makerspaces / hackspaces.
 
-*   Reference policy: [https://drive.google.com/open?id=0B5QvTHsRafGhcENRS2xkX2JGQ0U](https://drive.google.com/open?id=0B5QvTHsRafGhcENRS2xkX2JGQ0U)
-*   Premium calculator: [https://docs.google.com/spreadsheets/d/1tDZWsl-hKW5VYiTajsveYCnDt94qwReUL9DYyJoKR5U/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1tDZWsl-hKW5VYiTajsveYCnDt94qwReUL9DYyJoKR5U/edit?usp=sharing)
-*   Background discussion/context: [https://groups.google.com/forum/#!topic/uk-hackspaces/Mb8hTCv8oe8](https://groups.google.com/forum/#!topic/uk-hackspaces/Mb8hTCv8oe8)
+From Export and General...
 
-To develop a tailored policy/quote for your space, please contact John Mitchell at:
+---
 
-Export and General Insurance Services Limited  
-Desk: 0208 255 0617  
-Mobile: 07768 865983  
-Email: john.mitchell@exportandgeneral.co.uk  
-Wickham House, Hampton Wick, Kingston Upon Thames, KT1 4DY  
-[http://www.exportandgeneral.co.uk](http://www.exportandgeneral.co.uk)
+It has taken a year of negotiation with insurers and a couple of false starts, but what we have now got is secure, stable and NOT subject to change. The pricing grid looks like this:
+
+Public and Products Liability (£5m) - £183.27
+Trustees Indemnity - £161.56
+Legal Expenses - £25.99
+Employers' Liability (£10m)* - £81.46
+
+Contents is calculated at £12 per £1,000 of value (plus 12% tax).
+
+Buildings cover is arranged on a case-by-case basis. (As an example, for a Hackspace we recently added cover for a 40ft x 10ft portacabin for £95.00).
+
+(*There will some ‘scaling ‘ of the premiums (particularly for Employers’ Liability) for the larger makerspaces, but we have tried to set the base price at an ‘average’ level which will be suitable for most).
+
+There may be some Hackspaces / Makerspaces which feel that we didn’t really deliver last year, but that was because were weren’t entirely confident of the situation with the insurers (as noted above). Now we are – and we are administering the products ourselves, so we are confident that turn-around for quotes and cover will be hours, not days (or weeks!) as we don’t need to refer everything backwards and forwards to insurers.
+
+We are also working on a new website for policy administration, access to documentation and risk management info - we have made a start, so watch this space: http://www.exportandgeneral.co.uk/hackspace-community-group-insurance.php3.
+
+---
+
+See the Forum topic on Insurance for more info or to ask questions: https://forum.hackspace.org.uk/t/hackspace-insurance/278
+
 
 ### Any Other Questions?
 
