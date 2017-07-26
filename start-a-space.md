@@ -52,26 +52,24 @@ Hackspaces/Makerspaces throughout the UK face a similar challenge in terms of fi
 
 As a first step, a large number of spaces collaborated in early 2016 to establish a "master scheme" that other groups can opt into.  The selected broker, Export and General, has since created a bespoke suite of insurance products which are suitable makerspaces / hackspaces.
 
-From Export and General...
+*From Export and General...*
 
 ---
 
 It has taken a year of negotiation with insurers and a couple of false starts, but what we have now got is secure, stable and NOT subject to change. The pricing grid looks like this:
 
-Public and Products Liability (£5m) - £183.27
-Trustees Indemnity - £161.56
-Legal Expenses - £25.99
-Employers' Liability (£10m)* - £81.46
-
-Contents is calculated at £12 per £1,000 of value (plus 12% tax).
-
-Buildings cover is arranged on a case-by-case basis. (As an example, for a Hackspace we recently added cover for a 40ft x 10ft portacabin for £95.00).
+* Public and Products Liability (£5m) - £183.27
+* Trustees Indemnity - £161.56
+* Legal Expenses - £25.99
+* Employers' Liability (£10m)* - £81.46
+* Contents is calculated at £12 per £1,000 of value (plus 12% tax).
+* Buildings cover is arranged on a case-by-case basis. (As an example, for a Hackspace we recently added cover for a 40ft x 10ft portacabin for £95.00).
 
 (*There will some ‘scaling ‘ of the premiums (particularly for Employers’ Liability) for the larger makerspaces, but we have tried to set the base price at an ‘average’ level which will be suitable for most).
 
 There may be some Hackspaces / Makerspaces which feel that we didn’t really deliver last year, but that was because were weren’t entirely confident of the situation with the insurers (as noted above). Now we are – and we are administering the products ourselves, so we are confident that turn-around for quotes and cover will be hours, not days (or weeks!) as we don’t need to refer everything backwards and forwards to insurers.
 
-We are also working on a new website for policy administration, access to documentation and risk management info - we have made a start, so watch this space: http://www.exportandgeneral.co.uk/hackspace-community-group-insurance.php
+We are also working on a new website for policy administration, access to documentation and risk management info - we have made a start, so watch this space: [http://www.exportandgeneral.co.uk/hackspace-community-group-insurance.php](http://www.exportandgeneral.co.uk/hackspace-community-group-insurance.php)
 
 ---
 
