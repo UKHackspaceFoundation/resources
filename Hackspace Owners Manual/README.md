@@ -26,13 +26,13 @@ implementations in the given area of discussion. HOM tries to give you the
 facts of the area in a way that enables you to make informed decisions
 that are right for your organisation.
 
-For further information see the [The Hackspace Owners Manual](HOM)
+For further information see the [The Hackspace Owners Manual](About%20this%20manual)
 section of the manual.
 
 # Books of the Manual
 
 There are many areas to cover, this manual will likely never be complete
-so please think about [contributing](HOM/contributing.md).
+so please think about [contributing](About%20this%20manual/contributing.md).
 
 ## Infrastructure
 
