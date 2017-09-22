@@ -5,6 +5,12 @@ This file follows the conventions in [keepachangelog format](http://keepachangel
 
 ## [Unreleased] - 0000-00-00
 
+## [0.3.0] - 2017-09-22 - iann
+- Adding details to 'About this manual'
+- Removing mention of UK from the top level
+- Changed HoM to HOM trying for consistency
+- Fixing broken links in the top level README.md
+
 ## [0.2.0] - 2017-04-12 - iann
 ### Added
 - Adding contribution documentation
