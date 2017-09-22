@@ -4,6 +4,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file follows the conventions in [keepachangelog format](http://keepachangelog.com/en/0.3.0/)
 
 ## [Unreleased] - 0000-00-00
+
+## [0.3.0] - 2017-09-22 - iann
 - Adding details to 'About this manual'
 - Removing mention of UK from the top level
 - Changed HoM to HOM trying for consistency
