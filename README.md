@@ -8,7 +8,7 @@ The majority of the content is arranged within the *[Hackspace Owners Manual](Ha
 
 ## Todo / Contributions
 
-See the [High-level todo list](todo.md) for areas that need developing, contributions are welcome - see [contributions](contributions.md) to get started.
+See the [High-level todo list](todo.md) for areas that need developing, contributions are welcome - see [contributing](Hackspace%20Owners%20Manual/About%20this%20manual/contributing.md) to get started.
 
 
 ## References
