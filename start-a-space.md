@@ -6,6 +6,10 @@ If you're thinking of starting a hackspace in the UK, here's some advice which w
 
 The first steps we recommend for people attempting to start a new space are the following:
 
+*   Check for nearby spaces, try not to reinvent the wheel or to funnel members away from other spaces. If needed give a focus to the new space that a nearby space does not have. Also they might have a non-pub space to loan.
+
+*   Check other local groups that are not hackspaces or technical. Residents association, community groups, sewing clubs, ... they might not understand Hackspaces yet but they do understand community.
+
 *   Set up some form of web presence stating your goals.
 
 *   You need a way to discuss your space online, in a permanent, long-form way: most people use a mailing list for this. Don't agonise over the service - the easiest way is the best. Most UK spaces use [Google Groups](https://groups.google.com). Your mailing list shouldn't require approval to join, and the archives should be public so people can easily get involved. [South London Makerspace](http://southlondonmakerspace.org/2015/06/18/introducing-discourse/) have had success using [Discourse](https://www.discourse.org/) for this, but self-hosting an instance requires a fair amount of work.
