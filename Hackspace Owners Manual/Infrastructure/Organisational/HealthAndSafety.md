@@ -10,6 +10,8 @@ official danger signs should be used for official dangers. This so if the fireme
 
 A web form is proposed to help do clear signs. Readable and understandable be ESL and neurodiverse people.
 
+Example signage can be found at [Health and Safety signage](files/HealthAndSafetySignage/)
+
 ## Risk Assesment
 
 ### What is a Risk Assesment and why?
@@ -20,7 +22,7 @@ Risk assesment is done to make sure people or equipment don't break or get hurt.
 
 ### Template
 
-This template was extracted from https://wiki.london.hackspace.org.uk/view/Template_for_risk_assessment includes guidance in the form of an example. It was copied without permission from the authours. 
+This template was extracted from [London Hackspace Template for risk assessment](https://wiki.london.hackspace.org.uk/view/Template_for_risk_assessment) includes guidance in the form of an example. It was copied without permission from the authors.
 
 #### Description of Project
 
