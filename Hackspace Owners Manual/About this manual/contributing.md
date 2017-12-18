@@ -4,17 +4,11 @@ Contributions from anyone and everyone are very welcome! The aim of this manual
 is to assist in the building of community and nothing says that better than
 this being an open project.
 
-## Licence and Ownership
+## Licence
 
 All content within this manual and associated documentation is licenced under
 the [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
 license](https://creativecommons.org/licenses/by-nc-sa/3.0/).
-
-Any contributions made to this manual and associated documentation indicate
-your acceptance of the licence terms but also acts to assign your copyright to
-the *UK Hackspace Foundation*. We do this not because we want to remove your
-name or disallow you any of your rights, but to protect any content generated
-for and on behalf of the organisation and for the future.
 
 # Making a contribution
 
