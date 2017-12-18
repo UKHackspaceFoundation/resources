@@ -5,6 +5,10 @@ This file follows the conventions in [keepachangelog format](http://keepachangel
 
 ## [Unreleased] - 0000-00-00
 
+## [0.5.0] - 2017-12-18 - iann
+### Changed
+- Contributions file changed to remove copyright assignment
+
 ## [0.4.0] - 2017-09-28 - iann
 ### Changed
 - Moved content from root into structure of HOM
