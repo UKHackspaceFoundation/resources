@@ -4,6 +4,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file follows the conventions in [keepachangelog format](http://keepachangelog.com/en/0.3.0/)
 
 ## [Unreleased] - 0000-00-00
+### Added
+- Add Laser Cutter directory and first draft of documentation
 
 ## [0.7.0] - 2019-06-07 - iann/aqmunizp
 ### Added

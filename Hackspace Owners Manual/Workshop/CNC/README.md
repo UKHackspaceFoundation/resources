@@ -1,6 +1,6 @@
 ## Computer Numerical Control (CNC)
 
-* Laser cutters
+* [Laser Cutter](Laser%20Cutter)
 * 3d Printers
 * CNC Routers
 
