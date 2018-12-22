@@ -52,7 +52,7 @@ Additional capacity to work on cylindrical objects may be obtained by replacing 
 
 Rotary beds are available in various forms including lathe style chuck or between centres, or via rollers onto which objects can be placed.
 
-Only one of X and Y motion is required during use of a rotary bed - one axis is lined up parallel with your rotary bed path. The stepper driving the tagental path is disconnected and the stepper motor on the rotary bed connects to your stepper drivers instead in order to provide the rotary motion. Most machines have a larger X axis meaning the Y axis is usually the one disconnected to provide motion to the rotary bed.
+Only one of X and Y motion is required during use of a rotary bed - one axis is lined up parallel with your rotary bed path. The stepper driving the tangential path is disconnected and the stepper motor on the rotary bed connects to your stepper drivers instead in order to provide the rotary motion. Most machines have a larger X axis meaning the Y axis is usually the one disconnected to provide motion to the rotary bed.
 
 As with all stepper drivers, take care not to disconnect the motor from a powered stepper driver or damage may result to the driver.
 
@@ -76,11 +76,13 @@ Conventional wisdom for metal turning would recommend that the protrusion from t
 
 ### Between centres
 
-Turning between centres is a common operation for both metal and woodworking through the use of a drive centre and either a live (rotating) or dead (stationary) centre at the opposite or tailstock end of the work.
+Turning between centres is a common operation for both metal and woodworking through the use of a drive centre and either a live (rotating) or dead (stationary) centre at the opposite or tail stock end of the work.
 
 This relatively simple form of drive can provide a high level of accuracy in turning operations but that is not a consideration for this case.
 
 # Laser Source
+
+The most significant decision to make is which laser source to select.  This is the largest cost consideration both in purchase and ongoing maintenance. Laser sources have a limited life and will need to be replaced during the life of the machine.
 
 ## LED
 
@@ -88,11 +90,36 @@ This relatively simple form of drive can provide a high level of accuracy in tur
 
 ## Microwave
 
-# Controllers
+# Electronics
+
+## LAOS
+
+
+## Smoothie Board
+
+
 
 ## Cohesion 3d
 
+Smoothie firmware
+
 ## Ruida
+
+
+
+## Stepper Drivers
+
+
+
+See also:
+
+* [Arduino forum discussion on adjusting stepper driver current](https://forum.arduino.cc/index.php?topic=415724.0)
+* [Hackaday post on Trinamic stepper drivers](https://hackaday.com/2016/09/30/3d-printering-trinamic-tmc2130-stepper-motor-drivers-shifting-the-gears/)
+
+
+## Power Supply
+
+
 
 # Optical Path
 
@@ -193,6 +220,16 @@ The following values are based on research of mirrors available via Aliexpress a
 
 ## Beam combiner
 
+# Water Cooling
+
+## Barrel of water
+
+## Passive chiller
+
+## Active chiller
+
+
+
 # Air assist
 
 Air assist serves to clear smoke away from your cutting head as quickly as possible. This both keeps the smoke away from your lense reducing cleaning frequency but also clearing smoke in the optical path to the work preventing unpredictable changes in power due to attenuation.
@@ -249,6 +286,30 @@ See also:
 
 ## What else?
 
+# Maintenance
+
+## Mirrors
+
+## Lense
+
+## Bed & housing
+
+## Ways and slides
+
+## Z axis
+
+## Interlocks
+
+Varify correct operation of all interlocks?
+
+## Chiller
+
+Water changes
+
+Additives
+
+Protection against freezing
+
 # Appendix 1 - Safety
 
 ## Beams
@@ -268,3 +329,5 @@ The London Hackspace has an excellent wiki article detailing how to [identify if
 # Case Studies
 
 * [Mirrors - examining a sample](Case%20study%20-%20mirrors.md)
+
+* [Manchester Hackspace (Hacman) - purchase and maintenance of A2 laser](Case%20study%20-Hacman-A2.md)
