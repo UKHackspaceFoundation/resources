@@ -40,7 +40,7 @@ In some cases it may be possible to counteract the flashback by placing paper ba
 
 <a href="https://www.businesswire.com/news/home/20180423005466/en/Glowforge-Launches-3D-Laser-Printer-Crowdfunding-History"><img src="https://mms.businesswire.com/media/20180423005466/en/653048/4/Glowforge+Pro+material+in+passthrough+side+view.jpg?download=1"></a>
 
-Some machines feature removable panels in the front and rear of the case allowing larger pieces of work to be placed through the machine whilst the safety and integrity are maintained.
+Some machines feature removable panels or slots in the front and rear of the case allowing larger pieces of work to be placed through the machine whilst the safety and integrity are maintained.
 
 # Motion
 
@@ -84,11 +84,47 @@ This relatively simple form of drive can provide a high level of accuracy in tur
 
 The most significant decision to make is which laser source to select.  This is the largest cost consideration both in purchase and ongoing maintenance. Laser sources have a limited life and will need to be replaced during the life of the machine.
 
-## LED
+## Semiconductor
 
-## CO<sub>2</sub> Glass
+LED lasers have become more common since the advent of blueray disks which brought down the cost of higher powered LED for use in consumer electronics.
 
-## Microwave
+The low powered nature of these compared to microwave or CO<sub>2</sub> means these are more suited to engraving than for cutting unless your material is very thin.
+
+LED based machines can go as high as 20w with current technology though it's likely this will increase over time. The laser emitter is usually mounted directly to the gantry of the machine rather than using mirrors on this type of machine so the bed size is usually relatively small.
+
+See also [Wikipedia article on laser diodes](https://en.wikipedia.org/wiki/Laser_diode)
+
+## CO<sub>2</sub>
+
+See also:
+
+* [Comparing glass and metal CO<sub>2</sub> laser tubes](https://uscribe.com.au/knowledgebase/which-is-the-best-glassdc-or-metalrf-co2-laser-tubes/)
+* [Wikipedia article on gas lasers](https://en.wikipedia.org/wiki/Gas_laser)
+* [Wikipedia article on CO<sub>2</sub> lasers](https://en.wikipedia.org/wiki/Carbon_dioxide_laser)
+
+### Glass (DC)
+
+Glass tubes have a relatively low cost to power ratio but suffer from being fragile and of low life in comparison to metal.
+
+Control is in the form of high voltage direct current pulsed through the tube which also contains a water based cooling system.
+
+### Metal (RF)
+
+Metal tubes are high cost and commonly found in industrial settings. Unlike their glass counterpart metal tubes can be refurbished when they do eventually fail resulting in a lower total cost of ownership over the lifetime of a high powered industrial machine in heavy use.
+
+Control is in the form of rapidly pulsed radio frequency energy. Passive cooling is acceptable to around 150w in a moderate climate negating the need for lower power machines to be installed with a water cooling solution.
+
+## Comparison and recommendations
+
+| Source | Spot size | Detail | Life | Cost | Recommendation |
+| --- | --- | --- | --- | --- | --- |
+| LED |   | Medium | ~8k hours | Low | Low cost route into engraving - take care to enclose your machine and protect your eyes | 
+| Glass CO<sub>2</sub> | ~4mm | Medium | ~10k hours | Low | Offers best price to power ratio |
+| Metal CO<sub>2</sub> | ~2mm | High | ~50k hours | High | Expensive capital investment but lower cost for high volume use |
+
+## Power Levels
+
+http://am.co.za/laser/thickness
 
 # Electronics
 
@@ -331,3 +367,7 @@ The London Hackspace has an excellent wiki article detailing how to [identify if
 * [Mirrors - examining a sample](Case%20study%20-%20mirrors.md)
 
 * [Manchester Hackspace (Hacman) - purchase and maintenance of A2 laser](Case%20study%20-%20Hacman-A2.md)
+
+# See also
+
+* [Sarbar Multiedia](https://www.youtube.com/user/SarbarMultimedia/videos)
