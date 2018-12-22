@@ -116,11 +116,11 @@ Control is in the form of rapidly pulsed radio frequency energy. Passive cooling
 
 ## Comparison and recommendations
 
-| Source | Spot size | Detail | Life | Cost | Recommendation |
+| Source | Spot size | Detail | Typical Life (hours) | Relative Cost | Recommendation |
 | --- | --- | --- | --- | --- | --- |
-| LED |   | Medium | ~8k hours | Low | Low cost route into engraving - take care to enclose your machine and protect your eyes | 
-| Glass CO<sub>2</sub> | ~4mm | Medium | ~10k hours | Low | Offers best price to power ratio |
-| Metal CO<sub>2</sub> | ~2mm | High | ~50k hours | High | Expensive capital investment but lower cost for high volume use |
+| LED |   | Medium | ~8k | Low | Low cost route into engraving - take care to enclose your machine and protect your eyes |
+| Glass CO<sub>2</sub> | ~4mm | Medium | ~10k | Low | Offers best price to power ratio |
+| Metal CO<sub>2</sub> | ~2mm | High | ~50k | High | Expensive capital investment but lower cost for high volume use |
 
 ## Power Levels
 
