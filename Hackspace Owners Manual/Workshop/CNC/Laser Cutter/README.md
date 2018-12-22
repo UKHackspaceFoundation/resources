@@ -330,4 +330,4 @@ The London Hackspace has an excellent wiki article detailing how to [identify if
 
 * [Mirrors - examining a sample](Case%20study%20-%20mirrors.md)
 
-* [Manchester Hackspace (Hacman) - purchase and maintenance of A2 laser](Case%20study%20-Hacman-A2.md)
+* [Manchester Hackspace (Hacman) - purchase and maintenance of A2 laser](Case%20study%20-%20Hacman-A2.md)
