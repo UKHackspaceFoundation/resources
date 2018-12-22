@@ -1,5 +1,47 @@
 # Introduction
 
+A laser cutter emits high powered light in order to cut or engrave a target material. Power levels can vary from very small at around or less than 1w through to extremely large at several kw.
+
+This document aims to summarise the hardware options available in considering purchase and maintenance of machines less than 200w as these are the machines most commonly found in hackspaces.
+
+# Machine Beds
+
+One of the biggest factor in determining cost of a machine is the size of bed you wish to work with. Machines can come in any size but it's common to find sizes roughly matching ISO A series paper sizes:
+
+| Designation | ISO Size | Laser bed size |
+| --- | --- | --- |
+| A0 | 841 x 1189 mm | 900 x 1200mm |
+| A1 | 594 x 841 mm | 600 x 900mm |
+| A2 | 420 x 594 mm | 400 x 600mm |
+| A3 | 297 x 420 mm | 300 x 400mm |
+| A4 | 210 x 297 mm | 200 x 300mm |
+
+Machines are sometimes referred to by their rough ISO A series paper size and sometimes as a "6040" or "4060" meaning 600 x 400mm. Be sure you understand the size of the work you expect to cut vs the stated bed size. Beds are normally wider than they are deep. If you're going down the route of building your own machine, you can of course make this any size you want.
+
+When engraving material, the physical bed of our machine does not impact the quality of your results other than potentially depositing resin onto the rear of your piece from previous work. Cutting on the other hand is greatl;y affected by the underlying bed. Each contact with the bed below the work results in reflections that can mark the rear of your work, so it's best to try and minimise these as much as possible.
+
+## Knife or Blade
+
+<a href="http://justaddsharks.co.uk/support/preparing-the-cut"><img src="http://justaddsharks.co.uk/files/images/Support/PreparingTheCut/image16.jpg"></a>
+
+Knife beds minimise contact with the work by providing minimal support in the form of vertical knives that the work rests upon. Other than the very top of the knife edge, all edges are angled away from the resting work surface minimising reflections back onto the work above.
+
+The down side of a knife bed is that it can only be used for larger work pieces. Smaller items will drop between the blades when cut through which could then interfere with other cuts or engrave operations.
+
+## Honeycomb
+
+<a href="http://justaddsharks.co.uk/support/preparing-the-cut"><img src="http://justaddsharks.co.uk/files/images/Support/PreparingTheCut/image06.jpg"></a>
+
+The honeycomb bed design attempts to minimise the contact whilst still providing support to small work. Thin pieces of metal are interlocked to create the structure resulting in the edge of these pieces being in contact and providing a reflection back to the work.
+
+In some cases it may be possible to counteract the flashback by placing paper based masking tape on the rear of the work so that it may absorb the reflections and protect the work. For acrylic, simply leave the protective coating on both sides whilst cutting. When cutting is complete, remove the tape and associated flashback markings.
+
+## Pass through bed
+
+<a href="https://www.businesswire.com/news/home/20180423005466/en/Glowforge-Launches-3D-Laser-Printer-Crowdfunding-History"><img src="https://mms.businesswire.com/media/20180423005466/en/653048/4/Glowforge+Pro+material+in+passthrough+side+view.jpg?download=1"></a>
+
+Some machines feature removable panels in the front and rear of the case allowing larger pieces of work to be placed through the machine whilst the safety and integrity are maintained.
+
 # Motion
 
 Laser cutters are two axis CNC machines with the potential for three in the form of height adjustment. It is relatively uncommon to find machines with the Z axis height adjust controlled by software. In most lower cost machines this motion is provided by a small mains motor and directly switched mains from the control panel.
