@@ -5,6 +5,13 @@ This file follows the conventions in [keepachangelog format](http://keepachangel
 
 ## [Unreleased] - 0000-00-00
 
+## [0.6.0] - 2019-01-16 - zyphlar
+### Added
+- Added README files in Infrastructure and Physical
+
+### Fixed
+- Fix broken markdown links in index files
+
 ## [0.5.0] - 2017-12-18 - iann
 ### Changed
 - Contributions file changed to remove copyright assignment
