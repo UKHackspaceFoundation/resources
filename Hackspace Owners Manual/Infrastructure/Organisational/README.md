@@ -9,8 +9,13 @@
 # Founding the organisation
 
 * Company limited by guarantee
-* Community Interest Company
+* [Community Interest Company](CIC%20Setup)
 * Charity
+* [Asking for help](we-need-help-template.md)
+
+# Orienting new members
+
+* [Membership Guides](Membership%20Guides)
 
 # Ethics
 
@@ -21,7 +26,5 @@
 * Bank account
 * Accounting
 * Insurance
-
 * [Funding sources](FundingSources.md)
-
 * [Health and Safety](HealthAndSafety.md)
