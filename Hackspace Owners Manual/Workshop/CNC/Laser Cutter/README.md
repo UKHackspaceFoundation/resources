@@ -22,7 +22,7 @@ When engraving material, the physical bed of our machine does not impact the qua
 
 ## Knife or Blade
 
-<a href="http://justaddsharks.co.uk/support/preparing-the-cut"><img src="http://justaddsharks.co.uk/files/images/Support/PreparingTheCut/image16.jpg"></a>
+<a href="https://smokeandmirrors.store/pages/preparing-the-cut"><img src="files/knife-bed.jpg" alt="Knife or blade bed"></a>
 
 Knife beds minimise contact with the work by providing minimal support in the form of vertical knives that the work rests upon. Other than the very top of the knife edge, all edges are angled away from the resting work surface minimising reflections back onto the work above.
 
@@ -30,7 +30,7 @@ The down side of a knife bed is that it can only be used for larger work pieces.
 
 ## Honeycomb
 
-<a href="http://justaddsharks.co.uk/support/preparing-the-cut"><img src="http://justaddsharks.co.uk/files/images/Support/PreparingTheCut/image06.jpg"></a>
+<a href="https://smokeandmirrors.store/pages/preparing-the-cut"><img src="files/honeycomb-bed.jpg" alt="honeycomb bed"></a>
 
 The honeycomb bed design attempts to minimise the contact whilst still providing support to small work. Thin pieces of metal are interlocked to create the structure resulting in the edge of these pieces being in contact and providing a reflection back to the work.
 
