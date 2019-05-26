@@ -163,9 +163,9 @@ In non LED laser machines, there are usually three mirrors to be found and a foc
 
 Mirror number one is placed at the rear of the machine and reflects the beam from the tube into the body of the machine. Mirror two reflects the beam from the side of the machine along the gantry to the head. Mirror three sits at the top of the head and reflects the beam downwards to the lense and ultimately the work.
 
-<img src="http://www.imajeenyus.com/workshop/20090506_laser_cutter/beam_alignment_photos/thumb/optics_path_t.jpg" width="602" height="480" />
+<img src="http://www.imajeenyus.com/workshop/20090506_laser_cutter/beam_alignment_photos/optics_path.jpg" width="602" height="480" />
 
-Image taken from [Beam alignment article from Lindsay Wilson](http://www.imajeenyus.com/workshop/20090506\_laser\_cutter/beam\_alignment.shtml)
+Image linked from [Beam alignment article from Lindsay Wilson](http://www.imajeenyus.com/workshop/20090506\_laser\_cutter/beam\_alignment.shtml)
 
 ## Mirrors
 
@@ -223,6 +223,10 @@ The following values are based on research of mirrors available via Aliexpress a
 | Si |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 40-20 | Up to 200w | Ideal middle ground for home and hobby machines |
 | Mo |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 40-20 | Up to 200w | Hard wearing in tough environments - ideal for hackspace machines |
 | Cu |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 60-40 | Up to 200w | Ideal for higher power machines 120w or greater? |
+
+The science of mirrors is extensive and complicated, most of which is not relevant to the purchase of mirrors for laser cutters.
+
+As a general guide, better quality mirrors cost more and are better packed for shipping but that's often hard to determine from the details given in an online listing. American manufactured mirrors are usually the best quality. If this seems vague, you are correct. Differentiation between mirrors is difficult unless you're willing to pay top price for scientific specification mirrors.
 
 ## Lenses
 
