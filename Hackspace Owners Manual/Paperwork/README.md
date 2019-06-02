@@ -12,6 +12,6 @@ Please be aware under CDM Regulations, all public events and any event including
 
 The link below is more a RA (Risk Assessment) with some MS's (Method Statements).
 
-It does need some maker additions adding (3d printers etc) but will cover all the basics as is.
+It does need some maker additions adding (3d printers etc) but will cover all the basics as is. Import it into your preferred Spreadsheet program, edit and then print/export to pdf in Landscape.
 
 [Template CSV](https://github.com/garethhay/fizzPOP/blob/master/template_rams.csv)
