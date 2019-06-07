@@ -5,6 +5,10 @@ This file follows the conventions in [keepachangelog format](http://keepachangel
 
 ## [Unreleased] - 0000-00-00
 
+## [0.7.0] - 2019-06-07 - iann/aqmunizp
+### Added
+- Added emergency exit sign template
+
 ## [0.6.0] - 2019-01-16 - zyphlar
 ### Added
 - Added README files in Infrastructure and Physical
