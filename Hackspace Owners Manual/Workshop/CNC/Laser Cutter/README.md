@@ -181,7 +181,7 @@ Ruida controllers are a commercial off the shelf solution with a huge range of o
 
 
 * Type of controller:       Commercial
-* On board stepper drivers: Yes
+* On board stepper drivers: No
 * Support for rotary axis:  Yes
 * Software supported:       Lightburn
 
