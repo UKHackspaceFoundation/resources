@@ -127,20 +127,63 @@ Control is in the form of rapidly pulsed radio frequency energy. Passive cooling
 
 http://am.co.za/laser/thickness
 
-# Electronics
+# Electronics (gcode)
+
+Gcode controllers rely on the computer sending the commands to be very specific in it's instructions. See also [Wikipedia G-code](https://en.wikipedia.org/wiki/G-code). All available Open Source controllers make use of gcode to interpret commands from the controlling PC.
 
 ## LAOS
 
+Official site: [https://redmine.laoslaser.org/projects/laos/wiki](https://redmine.laoslaser.org/projects/laos/wiki)
 
-## Smoothie Board
+Type of controller:       Open source
+On board stepper drivers: Socketed pololu style
+Support for rotary axis:  No (but can use Y axis)
+Software supported:       Visicut, Corel Draw
+
+Visicut is no longer under active development.
+
+## Smoothieboard
+
+Official site: [http://smoothieware.org/smoothieboard](http://smoothieware.org/smoothieboard)
+
+Smoothieboards are the hardware aspect of the Smoothie project usually paired with [Smoothie](http://smoothieware.org/) firmware to control 3D printers, Laser cutters and CNC machines.
+
+Where to buy: [http://smoothieware.org/getting-smoothieboard](http://smoothieware.org/getting-smoothieboard)
+
+Type of controller:       Open source
+On board stepper drivers: Yes
+Support for rotary axis:	Yes
+Software supported:       Pronterface, Octoprint, bCNC, Smoopi, Fusion360, Lightburn
 
 
 
-## Cohesion 3d
+## Cohesion3d
 
-Smoothie firmware
+Official site: [https://cohesion3d.com/product-category/controllers/](https://cohesion3d.com/product-category/controllers/)
+
+The Cohesion3d board comes in a few varieties.
+
+Smoothie firmware runs on this board.
+
+Type of controller:       Open source
+On board stepper drivers: Yes
+Support for rotary axis:	Yes
+Software supported:       Lightburn
+
+
+# Electronics (DSP)
 
 ## Ruida
+
+Official site: [http://en.rd-acs.com/](http://en.rd-acs.com/)
+
+Ruida controllers are a commercial off the shelf solution with a huge range of options. This is the most expensive option listed here. For this example we will assume use of 
+
+
+Type of controller:       Commercial
+On board stepper drivers: Yes
+Support for rotary axis:	Yes
+Software supported:       Lightburn
 
 
 
