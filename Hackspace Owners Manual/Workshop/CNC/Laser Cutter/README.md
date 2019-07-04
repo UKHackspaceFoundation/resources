@@ -152,7 +152,7 @@ Where to buy: [http://smoothieware.org/getting-smoothieboard](http://smoothiewar
 
 Type of controller:       Open source
 On board stepper drivers: Yes
-Support for rotary axis:	Yes
+Support for rotary axis:  Yes
 Software supported:       Pronterface, Octoprint, bCNC, Smoopi, Fusion360, Lightburn
 
 
@@ -167,7 +167,7 @@ Smoothie firmware runs on this board.
 
 Type of controller:       Open source
 On board stepper drivers: Yes
-Support for rotary axis:	Yes
+Support for rotary axis:  Yes
 Software supported:       Lightburn
 
 
@@ -182,7 +182,7 @@ Ruida controllers are a commercial off the shelf solution with a huge range of o
 
 Type of controller:       Commercial
 On board stepper drivers: Yes
-Support for rotary axis:	Yes
+Support for rotary axis:  Yes
 Software supported:       Lightburn
 
 
