@@ -139,6 +139,9 @@ Official site: [https://redmine.laoslaser.org/projects/laos/wiki](https://redmin
 * On board stepper drivers: Socketed pololu style
 * Support for rotary axis:  No (but can use Y axis)
 * Software supported:       Visicut, Corel Draw
+* Connectivity:             USB, Ethernet
+* User control panel:       Add on
+* Special features:         K40 ribbon cable connector (nifty if it's long enough)
 
 Visicut is no longer under active development.
 
@@ -154,8 +157,9 @@ Where to buy: [http://smoothieware.org/getting-smoothieboard](http://smoothiewar
 * On board stepper drivers: Yes
 * Support for rotary axis:  Yes
 * Software supported:       Pronterface, Octoprint, bCNC, Smoopi, Fusion360, Lightburn
-
-
+* Connectivity options:     USB, Ethernet
+* User control panel:       Add on
+* Special features:          
 
 ## Cohesion3d
 
@@ -169,6 +173,9 @@ Smoothie firmware runs on this board.
 * On board stepper drivers: Yes
 * Support for rotary axis:  Yes
 * Software supported:       Lightburn
+* Connectivity options:     USB, Ethernet (add on) or Wireless (add on)
+* User control panel:       Add on
+* Special features:         K40 ribbon cable connector (nifty if it's long enough)
 
 
 # Electronics (DSP)
@@ -177,14 +184,15 @@ Smoothie firmware runs on this board.
 
 Official site: [http://en.rd-acs.com/](http://en.rd-acs.com/)
 
-Ruida controllers are a commercial off the shelf solution with a huge range of options. This is the most expensive option listed here. For this example we will assume use of 
-
+Ruida controllers are a commercial off the shelf solution with a huge range of options. This is the most expensive option listed here. For this example we will assume use of [RDC6442G](http://en.rd-acs.com/prod_view.aspx?TypeId=50097&Id=160)
 
 * Type of controller:       Commercial
 * On board stepper drivers: No
 * Support for rotary axis:  Yes
 * Software supported:       Lightburn
-
+* Connectivity options:     USB, Ethernet
+* User control panel:       Part of controller package
+* Special features:         Support for double laser heads
 
 
 ## Stepper Drivers
