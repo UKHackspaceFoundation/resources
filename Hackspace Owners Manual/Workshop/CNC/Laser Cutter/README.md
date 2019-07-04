@@ -135,10 +135,10 @@ Gcode controllers rely on the computer sending the commands to be very specific 
 
 Official site: [https://redmine.laoslaser.org/projects/laos/wiki](https://redmine.laoslaser.org/projects/laos/wiki)
 
-Type of controller:       Open source
-On board stepper drivers: Socketed pololu style
-Support for rotary axis:  No (but can use Y axis)
-Software supported:       Visicut, Corel Draw
+* Type of controller:       Open source
+* On board stepper drivers: Socketed pololu style
+* Support for rotary axis:  No (but can use Y axis)
+* Software supported:       Visicut, Corel Draw
 
 Visicut is no longer under active development.
 
@@ -150,10 +150,10 @@ Smoothieboards are the hardware aspect of the Smoothie project usually paired wi
 
 Where to buy: [http://smoothieware.org/getting-smoothieboard](http://smoothieware.org/getting-smoothieboard)
 
-Type of controller:       Open source
-On board stepper drivers: Yes
-Support for rotary axis:  Yes
-Software supported:       Pronterface, Octoprint, bCNC, Smoopi, Fusion360, Lightburn
+* Type of controller:       Open source
+* On board stepper drivers: Yes
+* Support for rotary axis:  Yes
+* Software supported:       Pronterface, Octoprint, bCNC, Smoopi, Fusion360, Lightburn
 
 
 
@@ -165,10 +165,10 @@ The Cohesion3d board comes in a few varieties.
 
 Smoothie firmware runs on this board.
 
-Type of controller:       Open source
-On board stepper drivers: Yes
-Support for rotary axis:  Yes
-Software supported:       Lightburn
+* Type of controller:       Open source
+* On board stepper drivers: Yes
+* Support for rotary axis:  Yes
+* Software supported:       Lightburn
 
 
 # Electronics (DSP)
@@ -180,10 +180,10 @@ Official site: [http://en.rd-acs.com/](http://en.rd-acs.com/)
 Ruida controllers are a commercial off the shelf solution with a huge range of options. This is the most expensive option listed here. For this example we will assume use of 
 
 
-Type of controller:       Commercial
-On board stepper drivers: Yes
-Support for rotary axis:  Yes
-Software supported:       Lightburn
+* Type of controller:       Commercial
+* On board stepper drivers: Yes
+* Support for rotary axis:  Yes
+* Software supported:       Lightburn
 
 
 
