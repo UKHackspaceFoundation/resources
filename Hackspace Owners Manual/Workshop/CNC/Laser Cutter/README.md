@@ -99,6 +99,7 @@ See also [Wikipedia article on laser diodes](https://en.wikipedia.org/wiki/Laser
 See also:
 
 * [Comparing glass and metal CO<sub>2</sub> laser tubes](https://uscribe.com.au/knowledgebase/which-is-the-best-glassdc-or-metalrf-co2-laser-tubes/)
+* [Which CO<sub>2</sub> laser tube is best?](http://bosslaser.com/blog/2016/02/12/which-co2-laser-tube-is-best-dc-or-rf/)
 * [Wikipedia article on gas lasers](https://en.wikipedia.org/wiki/Gas_laser)
 * [Wikipedia article on CO<sub>2</sub> lasers](https://en.wikipedia.org/wiki/Carbon_dioxide_laser)
 
