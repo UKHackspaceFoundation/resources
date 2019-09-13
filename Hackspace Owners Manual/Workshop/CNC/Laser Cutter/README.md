@@ -1,12 +1,12 @@
 # Introduction
 
-A laser cutter emits high powered light in order to cut or engrave a target material. Power levels can vary from very small at around or less than 1w through to extremely large at several kw.
+A laser cutter emits high powered light in order to cut or engrave a target material. Power levels can vary from very small at around or less than 1 watt (w) through to extremely large at several kilowatt (kw).
 
 This document aims to summarise the hardware options available in considering purchase and maintenance of machines less than 200w as these are the machines most commonly found in hackspaces.
 
 # Machine Beds
 
-One of the biggest factor in determining cost of a machine is the size of bed you wish to work with. Machines can come in any size but it's common to find sizes roughly matching ISO A series paper sizes:
+One of the biggest factors in determining cost of a machine is the size of bed you wish to work with. Machines can come in any size but it is common to find sizes roughly matching ISO A series paper sizes:
 
 | Designation | ISO Size | Laser bed size |
 | --- | --- | --- |
@@ -16,9 +16,9 @@ One of the biggest factor in determining cost of a machine is the size of bed yo
 | A3 | 297 x 420 mm | 300 x 400mm |
 | A4 | 210 x 297 mm | 200 x 300mm |
 
-Machines are sometimes referred to by their rough ISO A series paper size and sometimes as a "6040" or "4060" meaning 600 x 400mm. Be sure you understand the size of the work you expect to cut vs the stated bed size. Beds are normally wider than they are deep. If you're going down the route of building your own machine, you can of course make this any size you want.
+Machines are sometimes referred to by their rough ISO A series paper size and sometimes as a "6040" or "4060" meaning 600 x 400mm. Be sure you understand the size of the work you expect to cut vs the stated bed size. Beds are normally wider than they are deep. If you are going down the route of building your own machine, you can of course make this any size you want though structural stability of the machine is paramount to ensuring even alignment and power distribution for the cuts and engraving.
 
-When engraving material, the physical bed of our machine does not impact the quality of your results other than potentially depositing resin onto the rear of your piece from previous work. Cutting on the other hand is greatl;y affected by the underlying bed. Each contact with the bed below the work results in reflections that can mark the rear of your work, so it's best to try and minimise these as much as possible.
+When engraving material, the physical bed of our machine does not impact the quality of your results other than potentially depositing resin onto the rear of your piece from previous work. Cutting on the other hand is greatly affected by the underlying bed. Each contact with the bed below the work results in reflections that can mark the rear of your work, so it is best to try and minimise these as much as possible.
 
 ## Knife or Blade
 
@@ -44,7 +44,7 @@ Some machines feature removable panels or slots in the front and rear of the cas
 
 # Motion
 
-Laser cutters are two axis CNC machines with the potential for three in the form of height adjustment. It is relatively uncommon to find machines with the Z axis height adjust controlled by software. In most lower cost machines this motion is provided by a small mains motor and directly switched mains from the control panel.
+Laser cutters are typically two axis CNC machines, with the potential for three in the form of height adjustment. It is relatively uncommon to find machines with the Z axis height adjust controlled by software. In most lower cost machines this motion is provided by a small mains motor and directly switched mains from the control panel.
 
 Additional capacity to work on cylindrical objects may be obtained by replacing one of the axis with a rotary bed.
 
