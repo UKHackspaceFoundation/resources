@@ -14,7 +14,7 @@ The first steps we recommend for people attempting to start a new space are the 
 
 *   You need a way to discuss your space online, in a permanent, long-form way: most people use a mailing list for this. Don't agonise over the service - the easiest way is the best. Most UK spaces use [Google Groups](https://groups.google.com). Your mailing list shouldn't require approval to join, and the archives should be public so people can easily get involved. [South London Makerspace](http://southlondonmakerspace.org/2015/06/18/introducing-discourse/) have had success using [Discourse](https://www.discourse.org/) for this, but self-hosting an instance requires a fair amount of work.
 
-*   A real-time chat method is also a good idea - most groups use IRC on [Freenode](http://www.freenode.net). The realtime aspect of IRC creates relationships between members who have not even met yet. Avoid Slack, your historical logs aren't accessible unless you pay.
+*   A real-time chat method is also a good idea - most groups use [IRC on Libera](https://www.libera.chat). The realtime aspect of IRC creates relationships between members who have not even met yet. Avoid Slack, your historical logs aren't accessible unless you pay.
 
 *   Spam the hell out of every local (or semi-local) geek mailing list with a stirring "We will fight them on the beaches" style email about the need for a hackerspace. We can give you examples if need be!
 
