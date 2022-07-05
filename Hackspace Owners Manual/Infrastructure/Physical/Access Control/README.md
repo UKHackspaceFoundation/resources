@@ -287,8 +287,8 @@ configured to operate opening inwards or outwards.
 
 ### Cisa
 
-* 11610 - http://www.saundersonsecurity.co.uk/acatalog/Cisa_11610_Rim_Electric_Locks.html
-* 1A721 - http://www.saundersonsecurity.co.uk/acatalog/Cisa_Elettrika_1A721_Elec_lock_For_Metal_1A721.html
+* 11610 - http://www.saundersonsecurity.co.uk/cisa-11610-electric-lock.html
+* 1A721 - http://www.saundersonsecurity.co.uk/cisa-elettrika-1a721-elec-lock-for-metal.html
 
 These locks are fail secure and are released by application of 12v AC.
 
@@ -310,10 +310,10 @@ left or right. See this handy diagram:
        /           \
 ```
 
-* 1. Right hand inward opening
-* 2. Left hand inward opening
-* 3. Right hand outward opening
-* 4. Left hand outward opening
+1. Right hand inward opening
+2. Left hand inward opening
+3. Right hand outward opening
+4. Left hand outward opening
 
 Make sure that you purchase the correct handing and direction when
 ordering as it cannot be changed.
@@ -404,7 +404,7 @@ The same advice should be followed for break glass units and request to exit
 switches.
 
 Everyone is individual so tactfully engage your members who may have physical
-issues with the introduction of access control and ask for their input. Do his
+issues with the introduction of access control and ask for their input. Do this
 in the planning stages so that you can try to include adjustments as might be
 needed to support your members.
 
@@ -430,7 +430,7 @@ Outside of your usual open evenings and days, the point of implementing access
 control is to allow members to gain access at any time of the day or night.
 
 Your access token is something you have, however it can be lost or even stolen
-meaning that unauthorised access can be gained. Clasically good security is
+meaning that unauthorised access can be gained. Classically good security is
 made up of both something you have and something you know such as a bank card
 and PIN.
 
