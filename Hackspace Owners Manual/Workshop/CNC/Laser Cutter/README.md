@@ -1,6 +1,6 @@
 # Introduction
 
-A laser cutter emits high powered light in order to cut or engrave a target material. Power levels can vary from very small at around or less than 1 watt (w) through to extremely large at several kilowatt (kw).
+A laser cutter emits high powered light in order to cut or engrave a target material. Power levels can vary from very small at around or less than 1 watt (w) through to extremely large at several kilowatts (kw).
 
 This document aims to summarise the hardware options available in considering purchase and maintenance of machines less than 200w as these are the machines most commonly found in hackspaces.
 
@@ -20,6 +20,8 @@ Machines are sometimes referred to by their rough ISO A series paper size and so
 
 When engraving material, the physical bed of our machine does not impact the quality of your results other than potentially depositing resin onto the rear of your piece from previous work. Cutting on the other hand is greatly affected by the underlying bed. Each contact with the bed below the work results in reflections that can mark the rear of your work, so it is best to try and minimise these as much as possible.
 
+In some cases it may be possible to counteract the flashback by placing paper based masking tape on the rear of the work so that it may absorb the reflections and protect the work. For acrylic, simply leave the protective coating on both sides whilst cutting. When cutting is complete, remove the tape and associated flashback markings.
+
 ## Knife or Blade
 
 <a href="https://smokeandmirrors.store/pages/preparing-the-cut"><img src="files/knife-bed.jpg" alt="Knife or blade bed"></a>
@@ -33,8 +35,6 @@ The down side of a knife bed is that it can only be used for larger work pieces.
 <a href="https://smokeandmirrors.store/pages/preparing-the-cut"><img src="files/honeycomb-bed.jpg" alt="honeycomb bed"></a>
 
 The honeycomb bed design attempts to minimise the contact whilst still providing support to small work. Thin pieces of metal are interlocked to create the structure resulting in the edge of these pieces being in contact and providing a reflection back to the work.
-
-In some cases it may be possible to counteract the flashback by placing paper based masking tape on the rear of the work so that it may absorb the reflections and protect the work. For acrylic, simply leave the protective coating on both sides whilst cutting. When cutting is complete, remove the tape and associated flashback markings.
 
 ## Pass through bed
 
@@ -90,7 +90,7 @@ LED lasers have become more common since the advent of blueray disks which broug
 
 The low powered nature of these compared to microwave or CO<sub>2</sub> means these are more suited to engraving than for cutting unless your material is very thin.
 
-LED based machines can go as high as 20w with current technology though it's likely this will increase over time. The laser emitter is usually mounted directly to the gantry of the machine rather than using mirrors on this type of machine so the bed size is usually relatively small.
+LED based machines can go as high as 20w with current technology though it's likely this will increase over time. The laser emitter is usually mounted directly to the gantry of the machine rather than using mirrors so the bed size is usually relatively small.
 
 See also [Wikipedia article on laser diodes](https://en.wikipedia.org/wiki/Laser_diode)
 
@@ -105,9 +105,11 @@ See also:
 
 ### Glass (DC)
 
-Glass tubes have a relatively low cost to power ratio but suffer from being fragile and of low life in comparison to metal.
+Glass tubes have a relatively low cost to power ratio but suffer from being fragile and of low life in comparison to metal. This is the most commonly found type in a hackspace context.
 
-Control is in the form of high voltage direct current pulsed through the tube which also contains a water based cooling system.
+Control is in the form of high voltage direct current pulsed (PWM) through the tube which also contains a water based cooling system.
+
+Typical lifecycle of a glass tube is stated as around one hundred hours of operation depending on how well it is looked after. Failure is usually gradual with a decrease in power observed until the point that it's no longer effective at cutting or engraving. Many hackspaces charge for time on machines which is budgetted towards replacing the tube when it eventually fails.
 
 ### Metal (RF)
 
@@ -123,9 +125,88 @@ Control is in the form of rapidly pulsed radio frequency energy. Passive cooling
 | Glass CO<sub>2</sub> | ~4mm | Medium | ~10k | Low | Offers best price to power ratio |
 | Metal CO<sub>2</sub> | ~2mm | High | ~50k | High | Expensive capital investment but lower cost for high volume use |
 
-## Power Levels
+# Optical Path
 
-http://am.co.za/laser/thickness
+In non LED laser machines, there are usually three mirrors to be found and a focusing lense.
+
+Mirror number one is placed at the rear of the machine and reflects the beam from the tube into the body of the machine. Mirror two reflects the beam from the side of the machine along the gantry to the head. Mirror three sits at the top of the head and reflects the beam downwards to the lense and ultimately the work.
+
+<img src="http://www.imajeenyus.com/workshop/20090506_laser_cutter/beam_alignment_photos/optics_path.jpg" width="602" height="480" />
+
+Image linked from [Beam alignment article from Lindsay Wilson](http://www.imajeenyus.com/workshop/20090506\_laser\_cutter/beam\_alignment.shtml)
+
+## Mirrors
+
+The science behind optical reflectivity is deep and extensive. Mirrors are usually 20mm or 25mm diameter though are available in other diameters. Mirrors are made either from a solid piece of material or by applying a coating to another material.
+
+Key indicators to note are optical reflectivity, divergence from perfectly flat and surface finish. Different materials, reflective coatings and protective coatings will also behave differently depending on the optical wavelength of your laser source.
+
+Key performance indicators for mirrors are:
+
+| Value | Unit | Notes | Guide value |
+| --- | --- | --- | --- |
+| Reflectance | Percentage | Larger is better | &gt;= 99% |
+| Surface flatness | Fractions of wavelength | Smaller is better | lambda/4 @ 1064 nm |
+| Surface quality | scratch-dig | Smaller is better | 40-20 or less |
+
+A protective coating applied to any mirror will prolong it’s operating life and make damage less likely in the course of use and cleaning.
+
+All of that said, it's frequently hard to find this information when looking to purchase mirrors unless you order from a higher end scientific supplies catalogue with the costs associated with that. It's recommended to purchase mirrors from a reputable source as low quality cheap alternatives can catch fire and damage your machine.
+
+### K9 - Glass
+
+K9 mirrors are glass with a gold coating on one face. A coating is applied to protect the gold from oxidation.
+
+Due to the base material used, thermal conductivity is low resulting in all heat being dissipated in the reflective and protective coatings. They are not suitable for use with CO<sub>2</sub> lasers greater than 50w due to their lack of thermal mass.
+
+These mirrors are cheap, low quality and fragile. They are also prone to overheating and the coating catching fire if the mirror is in any way dirty. Avoid this type of mirror.
+
+### Si - Silicon Glass
+
+Si mirrors are silicon infused glass with a gold coating on one face. A coating is applied to protect the gold from oxidation.
+
+These mirrors are typically rated up to 150w for use with CO<sub>2</sub> lasers. These are recommended as the default for hobbyists operating home machines. A base material of glass makes these fragile.
+
+### Mo - Molybdenum
+
+Mo mirrors are molybdenum polished to a high finish, as a result these mirrors are silver in colour.
+
+There is usually no reflective or protective coatings on this material. It's extremely hard wearing and is recommended for hackspace or high use machines.
+
+These mirrors appear to be rated up to 200W for use with CO<sub>2</sub> lasers.
+
+### Cu - Copper
+
+Cu mirrors are a solid copper base material with a gold coating on one face. A coating is applied to protect the gold from oxidation.
+
+These mirrors are rated at a similar power level to Mo at 30-200W for CO<sub>2</sub> lasers. They are the best heat absorbing mirror for higher power optical paths however they typically have a lower reflectance and surface quality due to the softer base material.
+
+The most expensive of the mirrors we have looked at here, they are liable to scratching if not maintained with great care.
+
+### Comparison and recommendations
+
+The following values are based on research of mirrors available via Aliexpress and other online vendors of mirrors. The figures may be inaccurate or misleading and you are encouraged to do your own research. Values supplied are typical for the mirrors found.
+
+| Material | Reflectance | Flatness | Quality | Power | Recommendation |
+| --- | --- | --- | --- | --- | --- |
+| K9 |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 40-20 | 30w - 50w | Poor quality - don't use these |
+| Si |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 40-20 | Up to 200w | Ideal middle ground for home and hobby machines |
+| Mo |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 40-20 | Up to 200w | Hard wearing in tough environments - ideal for hackspace machines |
+| Cu |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 60-40 | Up to 200w | Ideal for higher power machines 120w or greater? |
+
+The science of mirrors is extensive and complicated, most of which is not relevant to the purchase of mirrors for laser cutters.
+
+As a general guide, better quality mirrors cost more and are better packed for shipping but that's often hard to determine from the details given in an online listing. American manufactured mirrors are usually the best quality. If this seems vague, you are correct. Differentiation between mirrors is difficult unless you're willing to pay top price for scientific specification mirrors.
+
+## Lenses
+
+
+
+
+
+
+
+
 
 # Electronics (gcode)
 
@@ -208,79 +289,6 @@ See also:
 ## Power Supply
 
 
-
-# Optical Path
-
-In non LED laser machines, there are usually three mirrors to be found and a focusing lense.
-
-Mirror number one is placed at the rear of the machine and reflects the beam from the tube into the body of the machine. Mirror two reflects the beam from the side of the machine along the gantry to the head. Mirror three sits at the top of the head and reflects the beam downwards to the lense and ultimately the work.
-
-<img src="http://www.imajeenyus.com/workshop/20090506_laser_cutter/beam_alignment_photos/optics_path.jpg" width="602" height="480" />
-
-Image linked from [Beam alignment article from Lindsay Wilson](http://www.imajeenyus.com/workshop/20090506\_laser\_cutter/beam\_alignment.shtml)
-
-## Mirrors
-
-The science behind optical reflectivity is deep and extensive. Mirrors are usually 20mm or 25mm diameter though are available in other diameters. Mirrors are made either from a solid piece of material or by applying a coating to another material.
-
-Key indicators to note are optical reflectivity, divergence from perfectly flat and surface finish. Different materials, reflective coatings and protective coatings will also behave differently depending on the optical wavelength of your laser source.
-
-Key performance indicators for mirrors are:
-
-| Value | Unit | Notes | Guide value |
-| --- | --- | --- | --- |
-| Reflectance | Percentage | Larger is better | &gt;= 99% |
-| Surface flatness | Fractions of wavelength | Smaller is better | lambda/4 @ 1064 nm |
-| Surface quality | scratch-dig | Smaller is better | 40-20 or less |
-
-A protective coating applied to any mirror will prolong it’s operating life and make damage less likely in the course of use and cleaning.
-
-### K9 - Glass
-
-K9 mirrors are glass with a gold coating on one face. A coating is applied to protect the gold from oxidation.
-
-Due to the base material used, thermal conductivity is low resulting in all heat being dissipated in the reflective and protective coatings. They are not suitable for use with CO<sub>2</sub> lasers greater than 50w due to their lack of thermal mass.
-
-These mirrors are cheap, low quality and fragile. They are also prone to overheating and the coating catching fire if the mirror is in any way dirty. Avoid this type of mirror.
-
-### Si - Silicon Glass
-
-Si mirrors are silicon infused glass with a gold coating on one face. A coating is applied to protect the gold from oxidation.
-
-These mirrors are typically rated up to 150w for use with CO<sub>2</sub> lasers. These are recommended as the default for hobbyists operating home machines. A base material of glass makes these fragile.
-
-### Mo - Molybdenum
-
-Mo mirrors are molybdenum polished to a high finish, as a result these mirrors are silver in colour rather than the gold of all of the others discussed in this document.
-
-There is usually no reflective or protective coatings on this material. It's extremely hard wearing and is recommended for hackspace or high use machines.
-
-These mirrors appear to be rated up to 200W for use with CO<sub>2</sub> lasers.
-
-### Cu - Copper
-
-Cu mirrors are a solid copper base material with a gold coating on one face. A coating is applied to protect the gold from oxidation.
-
-These mirrors are rated at a similar power level to Mo at 30-200W for CO<sub>2</sub> lasers. They are the best heat absorbing mirror for higher power optical paths however they typically have a lower reflectance and surface quality due to the softer base material.
-
-The most expensive of the mirrors we have looked at here, they are liable to scratching if not maintained with great care.
-
-### Comparison and recommendations
-
-The following values are based on research of mirrors available via Aliexpress and other online vendors of mirrors. The figures may be inaccurate or misleading and you are encouraged to do your own research. Values supplied are typical for the mirrors found.
-
-| Material | Reflectance | Flatness | Quality | Power | Recommendation |
-| --- | --- | --- | --- | --- | --- |
-| K9 |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 40-20 | 30w - 50w | Poor quality - don't use these |
-| Si |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 40-20 | Up to 200w | Ideal middle ground for home and hobby machines |
-| Mo |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 40-20 | Up to 200w | Hard wearing in tough environments - ideal for hackspace machines |
-| Cu |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 60-40 | Up to 200w | Ideal for higher power machines 120w or greater? |
-
-The science of mirrors is extensive and complicated, most of which is not relevant to the purchase of mirrors for laser cutters.
-
-As a general guide, better quality mirrors cost more and are better packed for shipping but that's often hard to determine from the details given in an online listing. American manufactured mirrors are usually the best quality. If this seems vague, you are correct. Differentiation between mirrors is difficult unless you're willing to pay top price for scientific specification mirrors.
-
-## Lenses
 
 ## Hardware around optics
 
@@ -402,6 +410,18 @@ Additives
 
 Protection against freezing
 
+
+
+
+
+
+## Power Levels
+
+
+
+
+
+http://am.co.za/laser/thickness
 # Appendix 1 - Safety
 
 ## Beams
