@@ -52,7 +52,7 @@ Metal tubes are high cost and commonly found in industrial settings. Unlike thei
 
 Control is in the form of rapidly pulsed radio frequency energy. Passive cooling is acceptable to around 150w in a moderate climate, negating the need for lower power machines to be installed with a water cooling solution.
 
-## Fibre
+### Fibre
 
 Fibre lasers are pulsed lasers which are most suited to engraving. They have a very high peak power which allows fast engraving, even on metals, but lower-cost machines have a fairly low continuous power, which makes them unsuitable for cutting.
 
