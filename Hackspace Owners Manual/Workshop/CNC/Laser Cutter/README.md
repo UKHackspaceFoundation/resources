@@ -1,8 +1,8 @@
 # Introduction
 
-A laser cutter emits high powered light in order to cut or engrave a target material. Power levels can vary from very small at around or less than 1 watt (W) through to extremely large at several kilowatts (kW).
+A laser cutter emits high powered light in order to cut or engrave a target material. Power levels can vary from around 1 watt (W) through to several kilowatts (kW).
 
-This document aims to summarise the hardware options available in considering purchase and maintenance of machines less than 200w as these are the machines most commonly found in hackspaces.
+This document aims to summarise the hardware options available in considering purchase and maintenance of machines less than 200W as these are the machines most commonly found in hackspaces.
 
 # Safety
 
@@ -14,6 +14,136 @@ If the laser is in an interlocked enclosure which prevents the laser from operat
 Many cheaper LED/fibre lasers are unenclosed and so are class 4 devices unsuitable for use in a hackspace (or anywhere, really, outside of some very specific situations). Do not buy an unenclosed laser. Aside from the risk of eye damage, the lack of fume extraction is also unpleasant and dangerous.
 
 Some very cheap CO2 lasers (such as some "K40" models) are enclosed but lack interlocks, and these should also not be used in a public location such as a hackspace.
+
+# Laser Source
+
+The most significant decision to make is which laser source to select.  This is the largest cost consideration both in purchase and ongoing maintenance. Some laser sources have a limited life and will need to be replaced during the life of the machine.
+
+## Diode
+
+LED lasers have become more common since the advent of bluray disks which brought down the cost of higher powered LED for use in consumer electronics. The low-powered nature of these compared to CO<sub>2</sub> means they are more suited to engraving and light-duty cutting of materials 3mm or thinner.
+
+LED based machines can go as high as 40W with current technology though it's likely this will increase over time. The laser emitter is usually mounted directly to the gantry of the machine rather than using mirrors so the bed size is usually relatively small.
+
+Many cheaper diode lasers are unenclosed and present a safety hazard. Unenclosed lasers **should not be used in public areas such as hackspaces**.
+
+See also [Wikipedia article on laser diodes](https://en.wikipedia.org/wiki/Laser_diode).
+
+## CO<sub>2</sub>
+
+See also:
+
+* [Comparing glass and metal CO<sub>2</sub> laser tubes](https://uscribe.com.au/knowledgebase/which-is-the-best-glassdc-or-metalrf-co2-laser-tubes/)
+* [Which CO<sub>2</sub> laser tube is best?](http://bosslaser.com/blog/2016/02/12/which-co2-laser-tube-is-best-dc-or-rf/)
+* [Wikipedia article on gas lasers](https://en.wikipedia.org/wiki/Gas_laser)
+* [Wikipedia article on CO<sub>2</sub> lasers](https://en.wikipedia.org/wiki/Carbon_dioxide_laser)
+
+### Glass (DC)
+
+Glass tubes have a relatively low cost to power ratio but suffer from being fragile and of low life in comparison to metal. This is the most commonly found type in a hackspace context.
+
+Control is in the form of high voltage direct current pulsed (PWM) through the tube which also contains a water based cooling system. The tube dissipates several hundred watts of heat and should be kept in an approximate 20-30°C temperature range, so an active chiller will be required if the laser is used for more than an hour or so at a time.
+
+Typical lifecycle of a glass tube is stated as around one hundred hours of operation depending on how well it is looked after. Failure is usually gradual with a decrease in power observed until the point that it's no longer effective at cutting or engraving. Many hackspaces charge for time on machines which is budgetted towards replacing the tube when it eventually fails.
+
+### Metal (RF)
+
+Metal tubes are high cost and commonly found in industrial settings. Unlike their glass counterpart metal tubes can be refurbished when they do eventually fail resulting in a lower total cost of ownership over the lifetime of a high powered industrial machine in heavy use.
+
+Control is in the form of rapidly pulsed radio frequency energy. Passive cooling is acceptable to around 150w in a moderate climate, negating the need for lower power machines to be installed with a water cooling solution.
+
+## Fibre
+
+Fibre lasers are pulsed lasers which are most suited to engraving. They have a very high peak power which allows fast engraving, even on metals, but lower-cost machines have a fairly low continuous power, which makes them unsuitable for cutting.
+
+Historically these have been very specialist machines which cost large amounts of money, but they have recently come down in price, and fibre engraving lasers are now within the budget of hackspaces. However, **most cheaper fibre lasers are unenclosed machines which are not suitable for use in hackspaces**.
+
+## Comparison and recommendations
+
+| Source               | Spot size | Detail | Typical Life (hours) | Relative Cost | Recommendation |
+| -------------------- | --------- | -----  | -------------------- | ------------- | -------------- |
+| LED                  |           | Medium | ~8k                  | Low           | Low cost route into engraving - take care to enclose your machine and protect your eyes |
+| Glass CO<sub>2</sub> | ~4mm      | Medium | ~10k                 | Low           | Offers best price to power ratio |
+| Metal CO<sub>2</sub> | ~2mm      | High   | ~50k                 | High          | Expensive capital investment but lower cost for high volume use |
+| Fibre                |           | High   |                      | Medium        | Still specialist machines only suitable for engraving |
+
+# Optical Path
+
+In non LED laser machines, there are usually three mirrors to be found and a focusing lens.
+
+Mirror number one is placed at the rear of the machine and reflects the beam from the tube into the body of the machine. Mirror two reflects the beam from the side of the machine along the gantry to the head. Mirror three sits at the top of the head and reflects the beam downwards to the lense and ultimately the work.
+
+<img src="http://www.imajeenyus.com/workshop/20090506_laser_cutter/beam_alignment_photos/optics_path.jpg" width="602" height="480" />
+
+Image linked from [Beam alignment article from Lindsay Wilson](http://www.imajeenyus.com/workshop/20090506\_laser\_cutter/beam\_alignment.shtml)
+
+## Mirrors
+
+The science behind optical reflectivity is deep and extensive. Mirrors are usually 20mm or 25mm diameter though are available in other diameters. Mirrors are made either from a solid piece of material or by applying a coating to another material.
+
+Key indicators to note are optical reflectivity, divergence from perfectly flat and surface finish. Different materials, reflective coatings and protective coatings will also behave differently depending on the optical wavelength of your laser source.
+
+Key performance indicators for mirrors are:
+
+| Value | Unit | Notes | Guide value |
+| --- | --- | --- | --- |
+| Reflectance | Percentage | Larger is better | &gt;= 99% |
+| Surface flatness | Fractions of wavelength | Smaller is better | lambda/4 @ 1064 nm |
+| Surface quality | scratch-dig | Smaller is better | 40-20 or less |
+
+A protective coating applied to any mirror will prolong it’s operating life and make damage less likely in the course of use and cleaning.
+
+All of that said, it's frequently hard to find this information when looking to purchase mirrors unless you order from a higher end scientific supplies catalogue with the costs associated with that. It's recommended to purchase mirrors from a reputable source as low quality cheap alternatives can catch fire and damage your machine.
+
+### K9 - Glass
+
+K9 mirrors are glass with a gold coating on one face. A coating is applied to protect the gold from oxidation.
+
+Due to the base material used, thermal conductivity is low resulting in all heat being dissipated in the reflective and protective coatings. They are not suitable for use with CO<sub>2</sub> lasers greater than 50w due to their lack of thermal mass.
+
+These mirrors are cheap, low quality and fragile. They are also prone to overheating and the coating catching fire if the mirror is in any way dirty. Avoid this type of mirror.
+
+### Si - Silicon Glass
+
+Si mirrors are silicon infused glass with a gold coating on one face. A coating is applied to protect the gold from oxidation.
+
+These mirrors are typically rated up to 150w for use with CO<sub>2</sub> lasers. These are recommended as the default for hobbyists operating home machines. A base material of glass makes these fragile.
+
+### Mo - Molybdenum
+
+Mo mirrors are molybdenum polished to a high finish, as a result these mirrors are silver in colour.
+
+There is usually no reflective or protective coatings on this material. It's extremely hard wearing and is recommended for hackspace or high use machines.
+
+These mirrors appear to be rated up to 200W for use with CO<sub>2</sub> lasers.
+
+### Cu - Copper
+
+Cu mirrors are a solid copper base material with a gold coating on one face. A coating is applied to protect the gold from oxidation.
+
+These mirrors are rated at a similar power level to Mo at 30-200W for CO<sub>2</sub> lasers. They are the best heat absorbing mirror for higher power optical paths however they typically have a lower reflectance and surface quality due to the softer base material.
+
+The most expensive of the mirrors we have looked at here, they are liable to scratching if not maintained with great care.
+
+### Comparison and recommendations
+
+The following values are based on research of mirrors available via Aliexpress and other online vendors of mirrors. The figures may be inaccurate or misleading and you are encouraged to do your own research. Values supplied are typical for the mirrors found.
+
+| Material | Reflectance | Flatness | Quality | Power | Recommendation |
+| --- | --- | --- | --- | --- | --- |
+| K9 |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 40-20 | 30w - 50w | Poor quality - don't use these |
+| Si |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 40-20 | Up to 200w | Ideal middle ground for home and hobby machines |
+| Mo |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 40-20 | Up to 200w | Hard wearing in tough environments - ideal for hackspace machines |
+| Cu |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 60-40 | Up to 200w | Ideal for higher power machines 120w or greater? |
+
+The science of mirrors is extensive and complicated, most of which is not relevant to the purchase of mirrors for laser cutters.
+
+As a general guide, better quality mirrors cost more and are better packed for shipping but that's often hard to determine from the details given in an online listing. American manufactured mirrors are usually the best quality. If this seems vague, you are correct. Differentiation between mirrors is difficult unless you're willing to pay top price for scientific specification mirrors.
+
+## Lenses
+
+
+
 
 # Machine Beds
 
@@ -90,133 +220,6 @@ Conventional wisdom for metal turning would recommend that the protrusion from t
 Turning between centres is a common operation for both metal and woodworking through the use of a drive centre and either a live (rotating) or dead (stationary) centre at the opposite or tail stock end of the work.
 
 This relatively simple form of drive can provide a high level of accuracy in turning operations but that is not a consideration for this case.
-
-# Laser Source
-
-The most significant decision to make is which laser source to select.  This is the largest cost consideration both in purchase and ongoing maintenance. Laser sources have a limited life and will need to be replaced during the life of the machine.
-
-## Diode
-
-LED lasers have become more common since the advent of bluray disks which brought down the cost of higher powered LED for use in consumer electronics. The low-powered nature of these compared to CO<sub>2</sub> means they are more suited to engraving and light-duty cutting of materials 3mm or thinner.
-
-LED based machines can go as high as 40W with current technology though it's likely this will increase over time. The laser emitter is usually mounted directly to the gantry of the machine rather than using mirrors so the bed size is usually relatively small.
-
-Many cheaper diode lasers are unenclosed and present a safety hazard. Unenclosed lasers **should not be used in public areas such as hackspaces**.
-
-See also [Wikipedia article on laser diodes](https://en.wikipedia.org/wiki/Laser_diode).
-
-## CO<sub>2</sub>
-
-See also:
-
-* [Comparing glass and metal CO<sub>2</sub> laser tubes](https://uscribe.com.au/knowledgebase/which-is-the-best-glassdc-or-metalrf-co2-laser-tubes/)
-* [Which CO<sub>2</sub> laser tube is best?](http://bosslaser.com/blog/2016/02/12/which-co2-laser-tube-is-best-dc-or-rf/)
-* [Wikipedia article on gas lasers](https://en.wikipedia.org/wiki/Gas_laser)
-* [Wikipedia article on CO<sub>2</sub> lasers](https://en.wikipedia.org/wiki/Carbon_dioxide_laser)
-
-### Glass (DC)
-
-Glass tubes have a relatively low cost to power ratio but suffer from being fragile and of low life in comparison to metal. This is the most commonly found type in a hackspace context.
-
-Control is in the form of high voltage direct current pulsed (PWM) through the tube which also contains a water based cooling system.
-
-Typical lifecycle of a glass tube is stated as around one hundred hours of operation depending on how well it is looked after. Failure is usually gradual with a decrease in power observed until the point that it's no longer effective at cutting or engraving. Many hackspaces charge for time on machines which is budgetted towards replacing the tube when it eventually fails.
-
-### Metal (RF)
-
-Metal tubes are high cost and commonly found in industrial settings. Unlike their glass counterpart metal tubes can be refurbished when they do eventually fail resulting in a lower total cost of ownership over the lifetime of a high powered industrial machine in heavy use.
-
-Control is in the form of rapidly pulsed radio frequency energy. Passive cooling is acceptable to around 150w in a moderate climate negating the need for lower power machines to be installed with a water cooling solution.
-
-## Comparison and recommendations
-
-| Source | Spot size | Detail | Typical Life (hours) | Relative Cost | Recommendation |
-| --- | --- | --- | --- | --- | --- |
-| LED |   | Medium | ~8k | Low | Low cost route into engraving - take care to enclose your machine and protect your eyes |
-| Glass CO<sub>2</sub> | ~4mm | Medium | ~10k | Low | Offers best price to power ratio |
-| Metal CO<sub>2</sub> | ~2mm | High | ~50k | High | Expensive capital investment but lower cost for high volume use |
-
-# Optical Path
-
-In non LED laser machines, there are usually three mirrors to be found and a focusing lense.
-
-Mirror number one is placed at the rear of the machine and reflects the beam from the tube into the body of the machine. Mirror two reflects the beam from the side of the machine along the gantry to the head. Mirror three sits at the top of the head and reflects the beam downwards to the lense and ultimately the work.
-
-<img src="http://www.imajeenyus.com/workshop/20090506_laser_cutter/beam_alignment_photos/optics_path.jpg" width="602" height="480" />
-
-Image linked from [Beam alignment article from Lindsay Wilson](http://www.imajeenyus.com/workshop/20090506\_laser\_cutter/beam\_alignment.shtml)
-
-## Mirrors
-
-The science behind optical reflectivity is deep and extensive. Mirrors are usually 20mm or 25mm diameter though are available in other diameters. Mirrors are made either from a solid piece of material or by applying a coating to another material.
-
-Key indicators to note are optical reflectivity, divergence from perfectly flat and surface finish. Different materials, reflective coatings and protective coatings will also behave differently depending on the optical wavelength of your laser source.
-
-Key performance indicators for mirrors are:
-
-| Value | Unit | Notes | Guide value |
-| --- | --- | --- | --- |
-| Reflectance | Percentage | Larger is better | &gt;= 99% |
-| Surface flatness | Fractions of wavelength | Smaller is better | lambda/4 @ 1064 nm |
-| Surface quality | scratch-dig | Smaller is better | 40-20 or less |
-
-A protective coating applied to any mirror will prolong it’s operating life and make damage less likely in the course of use and cleaning.
-
-All of that said, it's frequently hard to find this information when looking to purchase mirrors unless you order from a higher end scientific supplies catalogue with the costs associated with that. It's recommended to purchase mirrors from a reputable source as low quality cheap alternatives can catch fire and damage your machine.
-
-### K9 - Glass
-
-K9 mirrors are glass with a gold coating on one face. A coating is applied to protect the gold from oxidation.
-
-Due to the base material used, thermal conductivity is low resulting in all heat being dissipated in the reflective and protective coatings. They are not suitable for use with CO<sub>2</sub> lasers greater than 50w due to their lack of thermal mass.
-
-These mirrors are cheap, low quality and fragile. They are also prone to overheating and the coating catching fire if the mirror is in any way dirty. Avoid this type of mirror.
-
-### Si - Silicon Glass
-
-Si mirrors are silicon infused glass with a gold coating on one face. A coating is applied to protect the gold from oxidation.
-
-These mirrors are typically rated up to 150w for use with CO<sub>2</sub> lasers. These are recommended as the default for hobbyists operating home machines. A base material of glass makes these fragile.
-
-### Mo - Molybdenum
-
-Mo mirrors are molybdenum polished to a high finish, as a result these mirrors are silver in colour.
-
-There is usually no reflective or protective coatings on this material. It's extremely hard wearing and is recommended for hackspace or high use machines.
-
-These mirrors appear to be rated up to 200W for use with CO<sub>2</sub> lasers.
-
-### Cu - Copper
-
-Cu mirrors are a solid copper base material with a gold coating on one face. A coating is applied to protect the gold from oxidation.
-
-These mirrors are rated at a similar power level to Mo at 30-200W for CO<sub>2</sub> lasers. They are the best heat absorbing mirror for higher power optical paths however they typically have a lower reflectance and surface quality due to the softer base material.
-
-The most expensive of the mirrors we have looked at here, they are liable to scratching if not maintained with great care.
-
-### Comparison and recommendations
-
-The following values are based on research of mirrors available via Aliexpress and other online vendors of mirrors. The figures may be inaccurate or misleading and you are encouraged to do your own research. Values supplied are typical for the mirrors found.
-
-| Material | Reflectance | Flatness | Quality | Power | Recommendation |
-| --- | --- | --- | --- | --- | --- |
-| K9 |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 40-20 | 30w - 50w | Poor quality - don't use these |
-| Si |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 40-20 | Up to 200w | Ideal middle ground for home and hobby machines |
-| Mo |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 40-20 | Up to 200w | Hard wearing in tough environments - ideal for hackspace machines |
-| Cu |  | &Lambda;/2 per 1" diameter @ 10.6&micro;m | 60-40 | Up to 200w | Ideal for higher power machines 120w or greater? |
-
-The science of mirrors is extensive and complicated, most of which is not relevant to the purchase of mirrors for laser cutters.
-
-As a general guide, better quality mirrors cost more and are better packed for shipping but that's often hard to determine from the details given in an online listing. American manufactured mirrors are usually the best quality. If this seems vague, you are correct. Differentiation between mirrors is difficult unless you're willing to pay top price for scientific specification mirrors.
-
-## Lenses
-
-
-
-
-
-
-
 
 
 # Electronics (gcode)
