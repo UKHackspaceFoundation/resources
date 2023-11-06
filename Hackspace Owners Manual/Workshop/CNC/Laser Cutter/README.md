@@ -1,8 +1,19 @@
 # Introduction
 
-A laser cutter emits high powered light in order to cut or engrave a target material. Power levels can vary from very small at around or less than 1 watt (w) through to extremely large at several kilowatts (kw).
+A laser cutter emits high powered light in order to cut or engrave a target material. Power levels can vary from very small at around or less than 1 watt (W) through to extremely large at several kilowatts (kW).
 
 This document aims to summarise the hardware options available in considering purchase and maintenance of machines less than 200w as these are the machines most commonly found in hackspaces.
+
+# Safety
+
+> [!WARNING]
+> All laser cutters/engravers are powerful enough to cause instant, permanent blindness, even from an indirectly-reflected beam. You must consider the safety implications when purchasing a laser cutter.
+
+If the laser is in an interlocked enclosure which prevents the laser from operating when the enclosure is open, the system is considered "class 1" and no laser safety precautions are required. When unenclosed, a cutting laser is considered "class 4", and operating it safely requires an access-controlled area, trained operators, and appropriate PPE, which is very likely impractical for a hackspace. 
+
+Many cheaper LED/fibre lasers are unenclosed and so are class 4 devices unsuitable for use in a hackspace (or anywhere, really, outside of some very specific situations). Do not buy an unenclosed laser. Aside from the risk of eye damage, the lack of fume extraction is also unpleasant and dangerous.
+
+Some very cheap CO2 lasers (such as some "K40" models) are enclosed but lack interlocks, and these should also not be used in a public location such as a hackspace.
 
 # Machine Beds
 
@@ -84,15 +95,15 @@ This relatively simple form of drive can provide a high level of accuracy in tur
 
 The most significant decision to make is which laser source to select.  This is the largest cost consideration both in purchase and ongoing maintenance. Laser sources have a limited life and will need to be replaced during the life of the machine.
 
-## Semiconductor
+## Diode
 
-LED lasers have become more common since the advent of blueray disks which brought down the cost of higher powered LED for use in consumer electronics.
+LED lasers have become more common since the advent of bluray disks which brought down the cost of higher powered LED for use in consumer electronics. The low-powered nature of these compared to CO<sub>2</sub> means they are more suited to engraving and light-duty cutting of materials 3mm or thinner.
 
-The low powered nature of these compared to microwave or CO<sub>2</sub> means these are more suited to engraving than for cutting unless your material is very thin.
+LED based machines can go as high as 40W with current technology though it's likely this will increase over time. The laser emitter is usually mounted directly to the gantry of the machine rather than using mirrors so the bed size is usually relatively small.
 
-LED based machines can go as high as 20w with current technology though it's likely this will increase over time. The laser emitter is usually mounted directly to the gantry of the machine rather than using mirrors so the bed size is usually relatively small.
+Many cheaper diode lasers are unenclosed and present a safety hazard. Unenclosed lasers **should not be used in public areas such as hackspaces**.
 
-See also [Wikipedia article on laser diodes](https://en.wikipedia.org/wiki/Laser_diode)
+See also [Wikipedia article on laser diodes](https://en.wikipedia.org/wiki/Laser_diode).
 
 ## CO<sub>2</sub>
 
