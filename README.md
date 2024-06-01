@@ -3,12 +3,12 @@ Curated resources to aid starting and running a Hackspace.
 
 Organised by a number of trustees/directors of UK hackspaces, this repo contains reusable materials for starting or running a hackspace.  It complements the high level information available on the UK Hackspace Foundation website: http://www.hackspace.org.uk/
 
-The majority of the content is arranged within the *[Hackspace Owners Manual](Hackspace%20Owners%20Manual/README.md)*, so start there :)
+The majority of the content is arranged within the *[Hackspace Owners Manual](hackspace_owners_manual/README.md)*, so start there :)
 
 
 ## Todo / Contributions
 
-See the [High-level todo list](todo.md) for areas that need developing, contributions are welcome - see [contributing](Hackspace%20Owners%20Manual/About%20this%20manual/contributing.md) to get started.
+See the [High-level todo list](todo.md) for areas that need developing, contributions are welcome - see [contributing](hackspace_owners_manual/about/contributing.md) to get started.
 
 
 ## References
