@@ -1,21 +1,22 @@
 # Hackspace Foundation Resources
-Curated resources to aid starting and running a Hackspace.
 
-Organised by a number of trustees/directors of UK hackspaces, this repo contains reusable materials for starting or running a hackspace.  It complements the high level information available on the UK Hackspace Foundation website: http://www.hackspace.org.uk/
+These are a collection of curated resources to aid starting and running a Hackspace organised by a number of trustees/directors of UK hackspaces.
 
-The majority of the content is arranged within the *[Hackspace Owners Manual](Hackspace%20Owners%20Manual/README.md)*, so start there :)
+The *[Hackspace Owners Manual](Hackspace%20Owners%20Manual/README.md)* is the main living document or collection of documents for guidance.
 
+##Health and Safety
+Please read through the [minimal health and safety policy](health-and-safety/README.md) provided as the minimum requirements for all Hackspaces (or Hackerspaces, or Makerspaces, etc.) affiliated with the UK Hackspace Foundation must comply with to ensure the safety of their members and visitors.
 
-## Todo / Contributions
+## Contributes and ToDo list for Hackspace Resources
 
 See the [High-level todo list](todo.md) for areas that need developing, contributions are welcome - see [contributing](Hackspace%20Owners%20Manual/About%20this%20manual/contributing.md) to get started.
 
 
 ## References
 
-Some (by no means all) of the references used to assemble content for this site are collated [here](references.md).
+References used for collation of this content are available [here](references.md).
 
 
 ## License
 
-All content within this repo is covered by the [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license](https://creativecommons.org/licenses/by-nc-sa/3.0/)
+All content within this section and repository is covered by the [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license](https://creativecommons.org/licenses/by-nc-sa/3.0/)
