@@ -48,3 +48,9 @@ Most people will find something interesting here from basic hand tools
 through to CNC machining with laser cutters or routers.
 
 [The Book of Workshop](Workshop)
+
+## Paperwork
+
+This book covers some of the paperwork and how to use it to cut down on the amount involved in running a space.
+
+[The Book of Paperwork](Workshop)
