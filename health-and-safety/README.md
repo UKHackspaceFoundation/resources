@@ -1,50 +1,35 @@
-# UK Hackspace Foundation: Minimal Health and Safety Policy
+# Health and Safety
 
-**Please note:**
-If you need to report a near-miss, accident or incident. Please use [this link](https://forms.gle/Lpxnrqam7dkPsSg66). This will go to the UK Hackspace Foundation for review.
+## Health and Safety Policy
+A health and safety policy sets out who is responsible for which aspects of ensuring safety in your
+space. It is a [legal requirement](https://www.hse.gov.uk/simple-health-safety/policy/index.htm)
+for companies with more than 5 employees, but it's good practice to have one even if you aren't an
+employer. We recommend all spaces have a health and safety policy.
 
-This Health and Safety Policy outlines the minimum requirements that all Hackspaces (or Makerspaces etc) affiliated with the UK Hackspace Foundation must comply with to ensure the safety of their members and visitors.
+We provide an [example health and safety policy](./health-and-safety-policy.md) for hackspaces.
+You should:
 
-1. General Health and Safety Responsibilities
+* Copy this policy and edit it so it accurately reflects your situation
+* Publish it so it's accessible to users of your space
+* Periodically review the policy to ensure it's still accurate
 
-Hackspace Directors / Trustees is responsible for creating a safe environment by maintaining tools, equipment, and spaces in good working order.
-Members and Visitors must follow all safety guidelines, use equipment properly, and report hazards or unsafe conditions to Directors / Trustees immediately.
-Everyone must take personal responsibility for their own safety and the safety of others while using the space.
+## Incident Reporting
+The UK Hackspace Foundation operates an incident reporting system so we can identify trends, notify member spaces,
+and improve our guidance. We strongly encourage spaces to report incidents to us, to help us improve
+safety for all spaces.
 
-2. Risk Assessment
+This system does not replace your internal incident report system. Users of your space should
+report any incidents to your organisation first.
 
-Before any activity or use of tools or equipment, a Generic Risk Assessment must be completed to identify potential hazards. The assessment should:
+You can [submit a report here](https://forms.gle/Lpxnrqam7dkPsSg66).
 
-* Identify any risks involved in the activity.
-* Evaluate the likelihood and impact of harm.
-* Determine appropriate control measures to minimise the risk.
+## Template Risk Assessments
+We've produced a set of documents for common tools to act as templates for spaces when producing their own documentation and risk assessments.
 
-This risk assessment must be reviewed regularly and updated when there are changes to activities, tools, or the environment. Each hackspace must ensure members are trained on the importance of completing these assessments.
+**These risk assessments are templates.** You must copy them, edit them to make sure they accurately reflect your
+situation, and periodically review them.
 
-3. Personal Protective Equipment (PPE)
-
-Appropriate PPE must be provided and worn when necessary, particularly when using machinery, tools, or handling hazardous materials. 
-
-Where appropriate Hackspaces must ensure PPE is available and that members and visitors understand how to use it correctly.
-
-4. Incident Reporting
-
-All accidents, injuries, or near misses must be reported to Hackspace Directors / Trustees immediately. A record of incidents should be kept, and any serious incidents must be investigated to prevent recurrence.
-
-This policy forms the minimum standard for health and safety across all UK hackspaces. Each hackspace is encouraged to adapt and expand upon this policy to suit their specific environment, while ensuring these core principles are upheld.
-
-## Near Miss and Incident Reporting
-You can access our near miss and incident reporting system [here](https://forms.gle/Lpxnrqam7dkPsSg66).
-
-Filling in these reports should be completed as close to the incident as possible, however not in lieu of seeking emergency help which is always the first priority.
-
-### How your data is used:
-We use the near miss or incident data to revise the risk assessments, training guides and maintenance schedules of hackspace activities.
-
-## Example Risk Assessments
-The following information has been provided to aid in hackspace setup.  Where you have suggestions for improvements please contact us via the [discourse forum](https://forum.hackspace.org.uk/).
-
-To make use of these risk assessments and manuals you must keep recorded copies and revisit them regularly.  It is recommended that you nominate someone to receive health and safety communications from the UKHSF.
+If you have suggestions for improvements, please contact us via [the forum](https://forum.hackspace.org.uk/).
 
 - [Battery Storage Risk Assessment (All Types)](https://docs.google.com/document/d/1qBNYxva_X5DaOQhv4k7PRmMcJ6QVIFnDTexKl4xNnG8/edit?usp=sharing)
 - [Battery Welder Manual](https://docs.google.com/document/d/1vQbZGFYHEJBWoIkWWT2yBjD3pQoZQKdrRwy15sm7-qc/edit?usp=sharing)
