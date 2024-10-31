@@ -4,7 +4,7 @@ These are a collection of curated resources to aid starting and running a Hacksp
 
 The *[Hackspace Owners Manual](Hackspace%20Owners%20Manual/README.md)* is the main living document or collection of documents for guidance.
 
-##Health and Safety
+## Health and Safety
 Please read through the [minimal health and safety policy](health-and-safety/README.md) provided as the minimum requirements for all Hackspaces (or Hackerspaces, or Makerspaces, etc.) affiliated with the UK Hackspace Foundation must comply with to ensure the safety of their members and visitors.
 
 ## Contributes and ToDo list for Hackspace Resources
