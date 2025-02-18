@@ -26,8 +26,7 @@ You can [submit a report here](https://forms.gle/Lpxnrqam7dkPsSg66).
 ## Template Risk Assessments
 We've produced a set of documents for common tools to act as templates for spaces when producing their own documentation and risk assessments.
 
-**These risk assessments are templates.** You must copy them, edit them to make sure they accurately reflect your
-situation, and periodically review them.
+**These risk assessments are templates.** If you choose to use these, you must copy them, edit them to make sure they accurately reflect your situation, and periodically review them.
 
 If you have suggestions for improvements, please contact us via [the forum](https://forum.hackspace.org.uk/).
 
